@@ -1,0 +1,23 @@
+About this:
+
+
+abixcode allow building AbiWord using XCode, for development purpose.
+abixcode is NOT the official build system nor the one used to make 
+the binaries
+abixcode does not build the plugins yet.
+
+abixcode require a build "portsdk" to work.
+abixcode is for XCode 2.4.1, ie whatever is current on MacOS X 10.4.x
+to not require 10.5.
+abixcode may not work on your system however care has been made to try
+to make it work. Tweaking is allowed.
+
+Setup
+-----
+
+Checkout abiword as a peer to abixcode. 
+Make sure you have portsdk checked out. Build it.
+
+Build AbiWord.app from XCode. The Debug target is actually the only one.
+
+-- Hub
