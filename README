@@ -20,4 +20,17 @@ Make sure you have portsdk checked out. Build it.
 
 Build AbiWord.app from XCode. The Debug target is actually the only one.
 
+
+Adding files to the project
+---------------------------
+
+Source files must use UTF-8 encoding, and be referenced using a relative
+path.
+Objective-C++ file with a .cpp extension must have a type of 
+"sourcecode.cpp.objcpp" set in XCode, or they won't build.
+Frameworks and libraries must have an absolute path. If they are not part
+of the system standard distro (10.4), they must be in the portsdk and
+in the /opt/abi prefix.
+
+
 -- Hub

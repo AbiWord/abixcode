@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81337659102B76A70041F19C /* ap_CocoaPreview_Annotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81337657102B76A70041F19C /* ap_CocoaPreview_Annotation.cpp */; };
+		81337A3F102DDF830041F19C /* gr_CairoNullGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81337A3D102DDF830041F19C /* gr_CairoNullGraphics.cpp */; };
 		81411D37102A306300146213 /* ap_CocoaDialog_Annotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81411D35102A306300146213 /* ap_CocoaDialog_Annotation.cpp */; };
 		81411D55102A327100146213 /* ap_CocoaDialog_Annotation.nib in Resources */ = {isa = PBXBuildFile; fileRef = 81411D54102A327100146213 /* ap_CocoaDialog_Annotation.nib */; };
 		81D001241024CC3900A42CFC /* ev_CocoaKeyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F1421024CBE200A42CFC /* ev_CocoaKeyboard.cpp */; };
@@ -735,6 +737,10 @@
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		81337657102B76A70041F19C /* ap_CocoaPreview_Annotation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaPreview_Annotation.cpp; path = ../../abiword/src/wp/ap/cocoa/ap_CocoaPreview_Annotation.cpp; sourceTree = SOURCE_ROOT; };
+		81337658102B76A70041F19C /* ap_CocoaPreview_Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ap_CocoaPreview_Annotation.h; path = ../../abiword/src/wp/ap/cocoa/ap_CocoaPreview_Annotation.h; sourceTree = SOURCE_ROOT; };
+		81337A3D102DDF830041F19C /* gr_CairoNullGraphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gr_CairoNullGraphics.cpp; path = ../../abiword/src/af/gr/xp/gr_CairoNullGraphics.cpp; sourceTree = SOURCE_ROOT; };
+		81337A3E102DDF830041F19C /* gr_CairoNullGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gr_CairoNullGraphics.h; path = ../../abiword/src/af/gr/xp/gr_CairoNullGraphics.h; sourceTree = SOURCE_ROOT; };
 		81411D35102A306300146213 /* ap_CocoaDialog_Annotation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ap_CocoaDialog_Annotation.cpp; sourceTree = "<group>"; };
 		81411D36102A306300146213 /* ap_CocoaDialog_Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ap_CocoaDialog_Annotation.h; sourceTree = "<group>"; };
 		81411D54102A327100146213 /* ap_CocoaDialog_Annotation.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Annotation.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Annotation.nib; sourceTree = SOURCE_ROOT; };
@@ -2397,6 +2403,8 @@
 			children = (
 				81D0F2651024CBE500A42CFC /* gr_CairoGraphics.cpp */,
 				81D0F2661024CBE500A42CFC /* gr_CairoGraphics.h */,
+				81337A3D102DDF830041F19C /* gr_CairoNullGraphics.cpp */,
+				81337A3E102DDF830041F19C /* gr_CairoNullGraphics.h */,
 				81D0F2681024CBE500A42CFC /* gr_Caret.cpp */,
 				81D0F2691024CBE500A42CFC /* gr_Caret.h */,
 				81D0F26B1024CBE500A42CFC /* gr_CharWidths.cpp */,
@@ -3165,6 +3173,8 @@
 				81D0FAA31024CC0500A42CFC /* ap_CocoaPlugin.h */,
 				81D0FAA51024CC0500A42CFC /* ap_CocoaPrefs.cpp */,
 				81D0FAA61024CC0500A42CFC /* ap_CocoaPrefs.h */,
+				81337657102B76A70041F19C /* ap_CocoaPreview_Annotation.cpp */,
+				81337658102B76A70041F19C /* ap_CocoaPreview_Annotation.h */,
 				81D0FAA81024CC0500A42CFC /* ap_CocoaStatusBar.cpp */,
 				81D0FAA91024CC0500A42CFC /* ap_CocoaStatusBar.h */,
 				81D0FAAB1024CC0500A42CFC /* ap_CocoaTool.cpp */,
@@ -4325,6 +4335,8 @@
 				81D00D841024CC4500A42CFC /* CocoaMain.cpp in Sources */,
 				81D00D951024CC4500A42CFC /* abi_ver.cpp in Sources */,
 				81411D37102A306300146213 /* ap_CocoaDialog_Annotation.cpp in Sources */,
+				81337659102B76A70041F19C /* ap_CocoaPreview_Annotation.cpp in Sources */,
+				81337A3F102DDF830041F19C /* gr_CairoNullGraphics.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
