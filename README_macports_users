@@ -1,0 +1,78 @@
+*********************************
+AbiWord for Mac OS X
+
+by AbiSource Team
+on Jun 26, 2011
+*********************************
+
+Index:
+1. Summary
+2. Requirements
+3. Installation
+4. Known Issues
+5. Contact info
+
+=======================================
+1. SUMMARY
+=======================================
+Unofficial build of the AbiWord.app on
+Mac OS X 10.6+
+
+=======================================
+2. REQUIREMENTS
+=======================================
+Xcode 3.2+
+Mac OS X 10.6+
+AbiWord source 2.9+ with there libs
+in /opt/local/lib/** and headers in
+/opt/local/include/**
+
+
+=======================================
+3. INSTALLATION
+=======================================
+
+* Install MacPorts (http://www.macports.org/)
+and run in Terminal.app as admin to get the libs
+ # sudo port install cairo +quartz+no_x11 \
+pango +quartz+no_x11 fribidi libgsf +no_gnome \
+redland wv +no_x11 enchant boost
+
+* As user run in Terminal.app to get the source
+ $ svn co http://svn.abisource.com/abiword/trunk abiword
+
+* change
+abiword/src/wp/ap/cocoa/ap_CocoaPreview_Annotation.cpp
+to
+abiword/src/wp/ap/cocoa/ap_CocoaPreview_Annotation.mm
+
+* Run Xcode
+
+* Feel free
+
+=======================================
+4. KNOWN ISSUES
+=======================================
+abixcode_macports allow building AbiWord
+using Xcode, for development purpose.
+abixcode_macports is NOT the official
+build system nor the one used to make the
+binaries.
+
+Abixcode does not build the plugins yet.
+
+Source files must use UTF-8 encoding, and
+be referenced using a relative path. Frameworks
+and libraries must have an absolute path.
+If they are not part of the system standard
+distro (10.6), they must be in the
+/opt/local/ prefix.
+
+=======================================
+5. CONTACT & FURTHER INFO
+=======================================
+
+http://www.abisource.com/
+http://www.abisource.com/developers/
+
+http://abiword.com/wiki/Compiling_AbiWord_on_Mac
