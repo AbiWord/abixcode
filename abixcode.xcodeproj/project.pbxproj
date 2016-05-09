@@ -2402,7 +2402,7 @@
 		81D0F11C1024CBC000A42CFC /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		81D0F1421024CBE200A42CFC /* ev_CocoaKeyboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ev_CocoaKeyboard.cpp; path = ../abiword/src/af/ev/cocoa/ev_CocoaKeyboard.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F1431024CBE200A42CFC /* ev_CocoaKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ev_CocoaKeyboard.h; path = ../abiword/src/af/ev/cocoa/ev_CocoaKeyboard.h; sourceTree = SOURCE_ROOT; };
-		81D0F1451024CBE200A42CFC /* ev_CocoaMenu.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ev_CocoaMenu.cpp; path = ../abiword/src/af/ev/cocoa/ev_CocoaMenu.cpp; sourceTree = SOURCE_ROOT; };
+		81D0F1451024CBE200A42CFC /* ev_CocoaMenu.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ev_CocoaMenu.cpp; path = ../abiword/src/af/ev/cocoa/ev_CocoaMenu.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F1461024CBE200A42CFC /* ev_CocoaMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ev_CocoaMenu.h; path = ../abiword/src/af/ev/cocoa/ev_CocoaMenu.h; sourceTree = SOURCE_ROOT; };
 		81D0F1481024CBE200A42CFC /* ev_CocoaMenuBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ev_CocoaMenuBar.h; path = ../abiword/src/af/ev/cocoa/ev_CocoaMenuBar.h; sourceTree = SOURCE_ROOT; };
 		81D0F1491024CBE200A42CFC /* ev_CocoaMenuPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ev_CocoaMenuPopup.h; path = ../abiword/src/af/ev/cocoa/ev_CocoaMenuPopup.h; sourceTree = SOURCE_ROOT; };
@@ -3016,22 +3016,22 @@
 		81D0F9FB1024CC0300A42CFC /* ap_CocoaClipboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaClipboard.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaClipboard.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F9FC1024CC0300A42CFC /* ap_CocoaClipboard.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaClipboard.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaClipboard.h; sourceTree = SOURCE_ROOT; };
 		81D0F9FE1024CC0300A42CFC /* ap_CocoaDialog_All.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_All.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_All.h; sourceTree = SOURCE_ROOT; };
-		81D0F9FF1024CC0300A42CFC /* ap_CocoaDialog_Background.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Background.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Background.cpp; sourceTree = SOURCE_ROOT; };
+		81D0F9FF1024CC0300A42CFC /* ap_CocoaDialog_Background.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Background.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Background.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA001024CC0300A42CFC /* ap_CocoaDialog_Background.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Background.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Background.h; sourceTree = SOURCE_ROOT; };
 		81D0FA021024CC0300A42CFC /* ap_CocoaDialog_Background.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Background.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Background.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA031024CC0300A42CFC /* ap_CocoaDialog_Break.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Break.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Break.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA031024CC0300A42CFC /* ap_CocoaDialog_Break.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Break.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Break.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA041024CC0300A42CFC /* ap_CocoaDialog_Break.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Break.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Break.h; sourceTree = SOURCE_ROOT; };
 		81D0FA061024CC0300A42CFC /* ap_CocoaDialog_Break.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Break.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Break.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA081024CC0300A42CFC /* ap_CocoaDialog_Columns.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Columns.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Columns.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FA091024CC0300A42CFC /* ap_CocoaDialog_Columns.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Columns.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Columns.h; sourceTree = SOURCE_ROOT; };
 		81D0FA0B1024CC0300A42CFC /* ap_CocoaDialog_Columns.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Columns.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Columns.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA0D1024CC0300A42CFC /* ap_CocoaDialog_Field.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Field.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Field.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA0D1024CC0300A42CFC /* ap_CocoaDialog_Field.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Field.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Field.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA0E1024CC0300A42CFC /* ap_CocoaDialog_Field.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Field.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Field.h; sourceTree = SOURCE_ROOT; };
 		81D0FA101024CC0300A42CFC /* ap_CocoaDialog_Field.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Field.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Field.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA111024CC0300A42CFC /* ap_CocoaDialog_FormatFootnotes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_FormatFootnotes.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatFootnotes.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FA121024CC0300A42CFC /* ap_CocoaDialog_FormatFootnotes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_FormatFootnotes.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatFootnotes.h; sourceTree = SOURCE_ROOT; };
 		81D0FA141024CC0300A42CFC /* ap_CocoaDialog_FormatFootnotes.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_FormatFootnotes.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatFootnotes.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA151024CC0300A42CFC /* ap_CocoaDialog_FormatFrame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_FormatFrame.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatFrame.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA151024CC0300A42CFC /* ap_CocoaDialog_FormatFrame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_FormatFrame.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatFrame.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA161024CC0300A42CFC /* ap_CocoaDialog_FormatFrame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_FormatFrame.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatFrame.h; sourceTree = SOURCE_ROOT; };
 		81D0FA181024CC0300A42CFC /* ap_CocoaDialog_FormatFrame.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_FormatFrame.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatFrame.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA191024CC0300A42CFC /* ap_CocoaDialog_FormatTable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_FormatTable.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatTable.cpp; sourceTree = SOURCE_ROOT; };
@@ -3060,28 +3060,28 @@
 		81D0FA3D1024CC0400A42CFC /* ap_CocoaDialog_Latex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Latex.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Latex.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FA3E1024CC0400A42CFC /* ap_CocoaDialog_Latex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Latex.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Latex.h; sourceTree = SOURCE_ROOT; };
 		81D0FA401024CC0400A42CFC /* ap_CocoaDialog_Latex.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Latex.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Latex.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA411024CC0400A42CFC /* ap_CocoaDialog_ListRevisions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_ListRevisions.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_ListRevisions.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA411024CC0400A42CFC /* ap_CocoaDialog_ListRevisions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_ListRevisions.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_ListRevisions.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA421024CC0400A42CFC /* ap_CocoaDialog_ListRevisions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_ListRevisions.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_ListRevisions.h; sourceTree = SOURCE_ROOT; };
 		81D0FA441024CC0400A42CFC /* ap_CocoaDialog_ListRevisions.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_ListRevisions.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_ListRevisions.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA461024CC0400A42CFC /* ap_CocoaDialog_Lists.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Lists.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Lists.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FA471024CC0400A42CFC /* ap_CocoaDialog_Lists.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Lists.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Lists.h; sourceTree = SOURCE_ROOT; };
 		81D0FA491024CC0400A42CFC /* ap_CocoaDialog_Lists.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Lists.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Lists.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA4B1024CC0400A42CFC /* ap_CocoaDialog_MailMerge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_MailMerge.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_MailMerge.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA4B1024CC0400A42CFC /* ap_CocoaDialog_MailMerge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_MailMerge.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_MailMerge.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA4C1024CC0400A42CFC /* ap_CocoaDialog_MailMerge.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_MailMerge.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_MailMerge.h; sourceTree = SOURCE_ROOT; };
 		81D0FA4E1024CC0400A42CFC /* ap_CocoaDialog_MailMerge.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_MailMerge.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_MailMerge.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA4F1024CC0400A42CFC /* ap_CocoaDialog_MarkRevisions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_MarkRevisions.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_MarkRevisions.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FA501024CC0400A42CFC /* ap_CocoaDialog_MarkRevisions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_MarkRevisions.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_MarkRevisions.h; sourceTree = SOURCE_ROOT; };
 		81D0FA521024CC0400A42CFC /* ap_CocoaDialog_MarkRevisions.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_MarkRevisions.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_MarkRevisions.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA531024CC0400A42CFC /* ap_CocoaDialog_MergeCells.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_MergeCells.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_MergeCells.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA531024CC0400A42CFC /* ap_CocoaDialog_MergeCells.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_MergeCells.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_MergeCells.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA541024CC0400A42CFC /* ap_CocoaDialog_MergeCells.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_MergeCells.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_MergeCells.h; sourceTree = SOURCE_ROOT; };
 		81D0FA561024CC0400A42CFC /* ap_CocoaDialog_MergeCells.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_MergeCells.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_MergeCells.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA571024CC0400A42CFC /* ap_CocoaDialog_MetaData.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_MetaData.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_MetaData.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FA581024CC0400A42CFC /* ap_CocoaDialog_MetaData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_MetaData.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_MetaData.h; sourceTree = SOURCE_ROOT; };
 		81D0FA5A1024CC0400A42CFC /* ap_CocoaDialog_MetaData.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_MetaData.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_MetaData.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA5B1024CC0400A42CFC /* ap_CocoaDialog_New.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_New.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_New.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA5B1024CC0400A42CFC /* ap_CocoaDialog_New.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_New.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_New.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA5C1024CC0400A42CFC /* ap_CocoaDialog_New.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_New.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_New.h; sourceTree = SOURCE_ROOT; };
 		81D0FA5E1024CC0400A42CFC /* ap_CocoaDialog_New.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_New.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_New.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA5F1024CC0400A42CFC /* ap_CocoaDialog_Options.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Options.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Options.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA5F1024CC0400A42CFC /* ap_CocoaDialog_Options.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Options.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Options.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA601024CC0400A42CFC /* ap_CocoaDialog_Options.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Options.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Options.h; sourceTree = SOURCE_ROOT; };
 		81D0FA621024CC0400A42CFC /* ap_CocoaDialog_Options.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Options.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Options.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA641024CC0400A42CFC /* ap_CocoaDialog_PageNumbers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_PageNumbers.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_PageNumbers.cpp; sourceTree = SOURCE_ROOT; };
@@ -3108,7 +3108,7 @@
 		81D0FA801024CC0500A42CFC /* ap_CocoaDialog_Styles.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Styles.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Styles.h; sourceTree = SOURCE_ROOT; };
 		81D0FA821024CC0500A42CFC /* ap_CocoaDialog_Styles.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Styles.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Styles.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA831024CC0500A42CFC /* ap_CocoaDialog_StylesModify.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_StylesModify.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_StylesModify.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA851024CC0500A42CFC /* ap_CocoaDialog_Stylist.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Stylist.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Stylist.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA851024CC0500A42CFC /* ap_CocoaDialog_Stylist.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Stylist.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Stylist.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA861024CC0500A42CFC /* ap_CocoaDialog_Stylist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Stylist.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Stylist.h; sourceTree = SOURCE_ROOT; };
 		81D0FA881024CC0500A42CFC /* ap_CocoaDialog_Stylist.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Stylist.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Stylist.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA891024CC0500A42CFC /* ap_CocoaDialog_Tab.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Tab.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Tab.cpp; sourceTree = SOURCE_ROOT; };
@@ -3124,17 +3124,17 @@
 		81D0FA971024CC0500A42CFC /* ap_CocoaFrame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaFrame.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaFrame.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FA981024CC0500A42CFC /* ap_CocoaFrame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaFrame.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaFrame.h; sourceTree = SOURCE_ROOT; };
 		81D0FA9A1024CC0500A42CFC /* ap_CocoaFrame.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaFrame.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaFrame.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA9B1024CC0500A42CFC /* ap_CocoaFrameImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaFrameImpl.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaFrameImpl.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA9B1024CC0500A42CFC /* ap_CocoaFrameImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaFrameImpl.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaFrameImpl.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA9C1024CC0500A42CFC /* ap_CocoaFrameImpl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaFrameImpl.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaFrameImpl.h; sourceTree = SOURCE_ROOT; };
 		81D0FA9F1024CC0500A42CFC /* ap_CocoaLeftRuler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaLeftRuler.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaLeftRuler.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FAA01024CC0500A42CFC /* ap_CocoaLeftRuler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaLeftRuler.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaLeftRuler.h; sourceTree = SOURCE_ROOT; };
-		81D0FAA21024CC0500A42CFC /* ap_CocoaPlugin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaPlugin.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaPlugin.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FAA21024CC0500A42CFC /* ap_CocoaPlugin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaPlugin.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaPlugin.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FAA31024CC0500A42CFC /* ap_CocoaPlugin.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaPlugin.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaPlugin.h; sourceTree = SOURCE_ROOT; };
 		81D0FAA51024CC0500A42CFC /* ap_CocoaPrefs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaPrefs.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaPrefs.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FAA61024CC0500A42CFC /* ap_CocoaPrefs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaPrefs.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaPrefs.h; sourceTree = SOURCE_ROOT; };
 		81D0FAA81024CC0500A42CFC /* ap_CocoaStatusBar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaStatusBar.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaStatusBar.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FAA91024CC0500A42CFC /* ap_CocoaStatusBar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaStatusBar.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaStatusBar.h; sourceTree = SOURCE_ROOT; };
-		81D0FAAB1024CC0500A42CFC /* ap_CocoaTool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaTool.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaTool.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FAAB1024CC0500A42CFC /* ap_CocoaTool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaTool.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaTool.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FAAC1024CC0500A42CFC /* ap_CocoaTool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaTool.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaTool.h; sourceTree = SOURCE_ROOT; };
 		81D0FAAE1024CC0500A42CFC /* ap_CocoaToolbar_Control_All.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaToolbar_Control_All.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaToolbar_Control_All.h; sourceTree = SOURCE_ROOT; };
 		81D0FAAF1024CC0500A42CFC /* ap_CocoaToolbar_FontCombo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaToolbar_FontCombo.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaToolbar_FontCombo.cpp; sourceTree = SOURCE_ROOT; };
@@ -8440,7 +8440,6 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = AbiWord.app/Contents/PlugIns;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
@@ -8456,7 +8455,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = AbiWord.app/Contents/PlugIns;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
 				MACH_O_TYPE = mh_dylib;
@@ -8471,7 +8469,6 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
 				MACH_O_TYPE = mh_dylib;
@@ -8486,7 +8483,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
 				MACH_O_TYPE = mh_dylib;
 				PREBINDING = NO;
@@ -8501,7 +8497,6 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
 					/usr/include/libxml2,
@@ -8532,7 +8527,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
 				HEADER_SEARCH_PATHS = (
 					/usr/include/libxml2,
 					/usr/local/include/,
@@ -8562,7 +8556,6 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/lib;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
@@ -8579,7 +8572,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/lib;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
 				MACH_O_TYPE = mh_dylib;
@@ -8594,7 +8586,6 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
 					/usr/include/libxml2,
@@ -8628,7 +8619,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
 				HEADER_SEARCH_PATHS = (
 					/usr/include/libxml2,
 					/usr/local/include/,
@@ -8664,7 +8654,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/lib;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
@@ -8682,7 +8671,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/lib;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
 				PREBINDING = NO;
@@ -8700,14 +8688,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/lib;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/opt/abi/lib,
-				);
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				PRODUCT_NAME = ClarisWorks;
@@ -8723,13 +8706,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/lib;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/opt/abi/lib,
-				);
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				PRODUCT_NAME = ClarisWorks;
@@ -8746,7 +8724,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/lib;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
@@ -8770,7 +8747,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/lib;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
 				OTHER_LDFLAGS = (
@@ -8794,7 +8770,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/lib;
 				OTHER_LDFLAGS = (
@@ -8817,7 +8792,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/lib;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -8837,7 +8811,6 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
 					/usr/include/libxml2,
@@ -8866,7 +8839,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
 				HEADER_SEARCH_PATHS = (
 					/usr/include/libxml2,
 					/usr/local/include/,
@@ -8921,7 +8893,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/lib;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
@@ -8939,7 +8910,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/lib;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
 				PREBINDING = NO;
@@ -8952,14 +8922,9 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = ../abiword/src/wp/main/cocoa/bundle/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/opt/abi/lib,
-				);
 				PREBINDING = NO;
 				PRODUCT_NAME = AbiWord;
 				WRAPPER_EXTENSION = app;
@@ -8971,7 +8936,6 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = ../abiword/src/wp/main/cocoa/bundle/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
