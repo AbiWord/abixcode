@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -40,15 +40,6 @@
 		8105D5AE1CDF7C4A00C920CB /* fv_SelectionHandles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8105D5AC1CDF7C2700C920CB /* fv_SelectionHandles.cpp */; };
 		8105D5AF1CDF7C4A00C920CB /* fv_SelectionHandles.h in Headers */ = {isa = PBXBuildFile; fileRef = 8105D5AD1CDF7C2700C920CB /* fv_SelectionHandles.h */; };
 		8105D5B01CDF7C5E00C920CB /* libgio-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CD34CA10E351D100CDEDD8 /* libgio-2.0.0.dylib */; };
-		810F83B312014AB9002759C5 /* SDW.dylib in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 8175A18010E7359C003DE86D /* SDW.dylib */; };
-		810F83B412014AB9002759C5 /* Grammar.dylib in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 81CD364E10E46FE600CDEDD8 /* Grammar.dylib */; };
-		810F83B512014AB9002759C5 /* OpenXML.dylib in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 8115DC6B10DB35EC009D9DEA /* OpenXML.dylib */; };
-		810F83B612014AB9002759C5 /* WordPerfect.dylib in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 8115DC7210DB35FF009D9DEA /* WordPerfect.dylib */; };
-		810F83B712014AB9002759C5 /* OpenWriter.dylib in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 8115DC7910DB360E009D9DEA /* OpenWriter.dylib */; };
-		810F83B812014AB9002759C5 /* WordPerfectGraphics.dylib in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 8115DC8010DB3620009D9DEA /* WordPerfectGraphics.dylib */; };
-		810F83B912014AB9002759C5 /* WMF.dylib in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 81CD2FD910E3412A00CDEDD8 /* WMF.dylib */; };
-		810F83BA12014AB9002759C5 /* OpenDocument.dylib in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 8115DBD610DB3546009D9DEA /* OpenDocument.dylib */; };
-		810F83BB12014AB9002759C5 /* ClarisWorks.dylib in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 8175A29510E97197003DE86D /* ClarisWorks.dylib */; };
 		810F83BD12014AEE002759C5 /* liblink-grammar.5.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81CD368110E470E500CDEDD8 /* liblink-grammar.5.dylib */; };
 		810F83BE12014B0A002759C5 /* libwpd-0.10.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81CD343410E34AE500CDEDD8 /* libwpd-0.10.dylib */; };
 		810F83BF12014B18002759C5 /* libwmf-0.2.7.1.0.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81CD346510E34C2C00CDEDD8 /* libwmf-0.2.7.1.0.dylib */; };
@@ -1747,6 +1738,17 @@
 		81E1E1B914A9753D0044BB6A /* ODe_RDFWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E1E1B714A9753D0044BB6A /* ODe_RDFWriter.h */; };
 		81E3CFCF1160337800346683 /* ODe_DefaultStyles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81E3CFCD1160337700346683 /* ODe_DefaultStyles.cpp */; };
 		81E3CFD01160337800346683 /* ODe_DefaultStyles.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E3CFCE1160337800346683 /* ODe_DefaultStyles.h */; };
+		81FF92231CE00E510080CD27 /* librevenge-0.0.0.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81E01DBB1CDF906F00F629FA /* librevenge-0.0.0.dylib */; };
+		81FF92371CE01A3C0080CD27 /* tb_revision_find_next.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF922D1CE01A3C0080CD27 /* tb_revision_find_next.png */; };
+		81FF92381CE01A3C0080CD27 /* tb_revision_find_prev.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF922E1CE01A3C0080CD27 /* tb_revision_find_prev.png */; };
+		81FF92391CE01A3C0080CD27 /* tb_revision_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF922F1CE01A3C0080CD27 /* tb_revision_new.png */; };
+		81FF923A1CE01A3C0080CD27 /* tb_revision_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF92301CE01A3C0080CD27 /* tb_revision_select.png */; };
+		81FF923B1CE01A3C0080CD27 /* tb_revision_show_final.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF92311CE01A3C0080CD27 /* tb_revision_show_final.png */; };
+		81FF923C1CE01A3C0080CD27 /* tb_semitem_edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF92321CE01A3C0080CD27 /* tb_semitem_edit.png */; };
+		81FF923D1CE01A3C0080CD27 /* tb_semitem_next.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF92331CE01A3C0080CD27 /* tb_semitem_next.png */; };
+		81FF923E1CE01A3C0080CD27 /* tb_semitem_prev.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF92341CE01A3C0080CD27 /* tb_semitem_prev.png */; };
+		81FF923F1CE01A3C0080CD27 /* tb_semitem_stylesheet_apply.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF92351CE01A3C0080CD27 /* tb_semitem_stylesheet_apply.png */; };
+		81FF92401CE01A3C0080CD27 /* tb_semitem_this.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF92361CE01A3C0080CD27 /* tb_semitem_this.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1836,15 +1838,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				810F83B312014AB9002759C5 /* SDW.dylib in Copy Plugins */,
-				810F83B412014AB9002759C5 /* Grammar.dylib in Copy Plugins */,
-				810F83B512014AB9002759C5 /* OpenXML.dylib in Copy Plugins */,
-				810F83B612014AB9002759C5 /* WordPerfect.dylib in Copy Plugins */,
-				810F83B712014AB9002759C5 /* OpenWriter.dylib in Copy Plugins */,
-				810F83B812014AB9002759C5 /* WordPerfectGraphics.dylib in Copy Plugins */,
-				810F83B912014AB9002759C5 /* WMF.dylib in Copy Plugins */,
-				810F83BA12014AB9002759C5 /* OpenDocument.dylib in Copy Plugins */,
-				810F83BB12014AB9002759C5 /* ClarisWorks.dylib in Copy Plugins */,
 			);
 			name = "Copy Plugins";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1855,6 +1848,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				81FF92231CE00E510080CD27 /* librevenge-0.0.0.dylib in Copy Frameworks */,
 				810F83BF12014B18002759C5 /* libwmf-0.2.7.1.0.dylib in Copy Frameworks */,
 				810F83C012014B18002759C5 /* libwmflite-0.2.7.0.1.dylib in Copy Frameworks */,
 				810F83BE12014B0A002759C5 /* libwpd-0.10.dylib in Copy Frameworks */,
@@ -3559,6 +3553,16 @@
 		81E1E1B714A9753D0044BB6A /* ODe_RDFWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODe_RDFWriter.h; sourceTree = "<group>"; };
 		81E3CFCD1160337700346683 /* ODe_DefaultStyles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ODe_DefaultStyles.cpp; sourceTree = "<group>"; };
 		81E3CFCE1160337800346683 /* ODe_DefaultStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODe_DefaultStyles.h; sourceTree = "<group>"; };
+		81FF922D1CE01A3C0080CD27 /* tb_revision_find_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_revision_find_next.png; sourceTree = "<group>"; };
+		81FF922E1CE01A3C0080CD27 /* tb_revision_find_prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_revision_find_prev.png; sourceTree = "<group>"; };
+		81FF922F1CE01A3C0080CD27 /* tb_revision_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_revision_new.png; sourceTree = "<group>"; };
+		81FF92301CE01A3C0080CD27 /* tb_revision_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_revision_select.png; sourceTree = "<group>"; };
+		81FF92311CE01A3C0080CD27 /* tb_revision_show_final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_revision_show_final.png; sourceTree = "<group>"; };
+		81FF92321CE01A3C0080CD27 /* tb_semitem_edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_semitem_edit.png; sourceTree = "<group>"; };
+		81FF92331CE01A3C0080CD27 /* tb_semitem_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_semitem_next.png; sourceTree = "<group>"; };
+		81FF92341CE01A3C0080CD27 /* tb_semitem_prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_semitem_prev.png; sourceTree = "<group>"; };
+		81FF92351CE01A3C0080CD27 /* tb_semitem_stylesheet_apply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_semitem_stylesheet_apply.png; sourceTree = "<group>"; };
+		81FF92361CE01A3C0080CD27 /* tb_semitem_this.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_semitem_this.png; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* AbiWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbiWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -6076,6 +6080,16 @@
 		81D0FEB11024CC1A00A42CFC /* ToolbarIcons */ = {
 			isa = PBXGroup;
 			children = (
+				81FF922D1CE01A3C0080CD27 /* tb_revision_find_next.png */,
+				81FF922E1CE01A3C0080CD27 /* tb_revision_find_prev.png */,
+				81FF922F1CE01A3C0080CD27 /* tb_revision_new.png */,
+				81FF92301CE01A3C0080CD27 /* tb_revision_select.png */,
+				81FF92311CE01A3C0080CD27 /* tb_revision_show_final.png */,
+				81FF92321CE01A3C0080CD27 /* tb_semitem_edit.png */,
+				81FF92331CE01A3C0080CD27 /* tb_semitem_next.png */,
+				81FF92341CE01A3C0080CD27 /* tb_semitem_prev.png */,
+				81FF92351CE01A3C0080CD27 /* tb_semitem_stylesheet_apply.png */,
+				81FF92361CE01A3C0080CD27 /* tb_semitem_this.png */,
 				81D0FEB51024CC1A00A42CFC /* menu_about.png */,
 				81D0FEB71024CC1A00A42CFC /* menu_add_column.png */,
 				81D0FEB91024CC1A00A42CFC /* menu_add_row.png */,
@@ -7301,7 +7315,7 @@
 				ORGANIZATIONNAME = Abisource;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "abixcode" */;
-			compatibilityVersion = "Xcode 2.4";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -7338,6 +7352,7 @@
 				81D001C41024CC3900A42CFC /* updown_cursor.png in Resources */,
 				81D003AB1024CC3A00A42CFC /* xap_CocoaDlg_About.nib in Resources */,
 				81D003B01024CC3A00A42CFC /* xap_CocoaDlg_DocComparison.nib in Resources */,
+				81FF92401CE01A3C0080CD27 /* tb_semitem_this.png in Resources */,
 				81D003B81024CC3A00A42CFC /* xap_CocoaDlg_FontChooser.nib in Resources */,
 				81D003BB1024CC3A00A42CFC /* xap_CocoaDlg_History.nib in Resources */,
 				81D003BF1024CC3A00A42CFC /* xap_CocoaDlg_HTMLOptions.nib in Resources */,
@@ -7359,10 +7374,12 @@
 				81D008051024CC3D00A42CFC /* ap_CocoaDialog_FormatTable.nib in Resources */,
 				81D008091024CC3D00A42CFC /* ap_CocoaDialog_FormatTOC.nib in Resources */,
 				81D0080C1024CC3D00A42CFC /* ap_CocoaDialog_Goto.nib in Resources */,
+				81FF923F1CE01A3C0080CD27 /* tb_semitem_stylesheet_apply.png in Resources */,
 				81D008101024CC3D00A42CFC /* ap_CocoaDialog_HdrFtr.nib in Resources */,
 				81D008161024CC3D00A42CFC /* ap_CocoaDialog_InsertBookmark.nib in Resources */,
 				81D008191024CC3D00A42CFC /* ap_CocoaDialog_InsertHyperlink.nib in Resources */,
 				81D0081D1024CC3D00A42CFC /* ap_CocoaDialog_InsertTable.nib in Resources */,
+				81FF923D1CE01A3C0080CD27 /* tb_semitem_next.png in Resources */,
 				81D008211024CC3D00A42CFC /* ap_CocoaDialog_Latex.nib in Resources */,
 				81D008241024CC3D00A42CFC /* ap_CocoaDialog_ListRevisions.nib in Resources */,
 				81D008281024CC3D00A42CFC /* ap_CocoaDialog_Lists.nib in Resources */,
@@ -7373,6 +7390,7 @@
 				81D008381024CC3D00A42CFC /* ap_CocoaDialog_New.nib in Resources */,
 				81D0083B1024CC3D00A42CFC /* ap_CocoaDialog_Options.nib in Resources */,
 				81D0083F1024CC3D00A42CFC /* ap_CocoaDialog_PageNumbers.nib in Resources */,
+				81FF923E1CE01A3C0080CD27 /* tb_semitem_prev.png in Resources */,
 				81D008421024CC3D00A42CFC /* ap_CocoaDialog_PageSetup.nib in Resources */,
 				81D008451024CC3D00A42CFC /* ap_CocoaDialog_Paragraph.nib in Resources */,
 				81D008481024CC3D00A42CFC /* ap_CocoaDialog_Replace.nib in Resources */,
@@ -7383,6 +7401,7 @@
 				81D008581024CC3D00A42CFC /* ap_CocoaDialog_Stylist.nib in Resources */,
 				81D0085B1024CC3D00A42CFC /* ap_CocoaDialog_Tab.nib in Resources */,
 				81D0085E1024CC3D00A42CFC /* ap_CocoaDialog_ToggleCase.nib in Resources */,
+				81FF923A1CE01A3C0080CD27 /* tb_revision_select.png in Resources */,
 				81D008611024CC3D00A42CFC /* ap_CocoaDialog_WordCount.nib in Resources */,
 				81D008661024CC3D00A42CFC /* ap_CocoaFrame.nib in Resources */,
 				81D00B881024CC4100A42CFC /* margin.png in Resources */,
@@ -7420,6 +7439,7 @@
 				81D00BCC1024CC4100A42CFC /* menu_new_window.png in Resources */,
 				81D00BCE1024CC4100A42CFC /* menu_open.png in Resources */,
 				81D00BD01024CC4100A42CFC /* menu_paste.png in Resources */,
+				81FF92371CE01A3C0080CD27 /* tb_revision_find_next.png in Resources */,
 				81D00BD21024CC4100A42CFC /* menu_preferences.png in Resources */,
 				81D00BD41024CC4100A42CFC /* menu_print-setup.png in Resources */,
 				81D00BD61024CC4100A42CFC /* menu_print.png in Resources */,
@@ -7462,6 +7482,7 @@
 				81D00C201024CC4200A42CFC /* tb_edit_editfooter.png in Resources */,
 				81D00C221024CC4200A42CFC /* tb_edit_editheader.png in Resources */,
 				81D00C241024CC4200A42CFC /* tb_edit_removefooter.png in Resources */,
+				81FF923B1CE01A3C0080CD27 /* tb_revision_show_final.png in Resources */,
 				81D00C261024CC4200A42CFC /* tb_edit_removeheader.png in Resources */,
 				81D00C281024CC4200A42CFC /* tb_help.png in Resources */,
 				81D00C2A1024CC4200A42CFC /* tb_hyperlink.png in Resources */,
@@ -7474,6 +7495,7 @@
 				81D00C381024CC4200A42CFC /* tb_LineBottom.png in Resources */,
 				81D00C3A1024CC4200A42CFC /* tb_LineLeft.png in Resources */,
 				81D00C3C1024CC4200A42CFC /* tb_LineNone.png in Resources */,
+				81FF92381CE01A3C0080CD27 /* tb_revision_find_prev.png in Resources */,
 				81D00C3E1024CC4200A42CFC /* tb_LineRight.png in Resources */,
 				81D00C401024CC4200A42CFC /* tb_LineTop.png in Resources */,
 				81D00C421024CC4200A42CFC /* tb_lists.png in Resources */,
@@ -7501,6 +7523,7 @@
 				81D00C6E1024CC4300A42CFC /* tb_smiley.png in Resources */,
 				81D00C701024CC4300A42CFC /* tb_spellcheck.png in Resources */,
 				81D00C721024CC4300A42CFC /* tb_split_cells.png in Resources */,
+				81FF923C1CE01A3C0080CD27 /* tb_semitem_edit.png in Resources */,
 				81D00C741024CC4300A42CFC /* tb_SplitAbove.png in Resources */,
 				81D00C761024CC4300A42CFC /* tb_SplitBelow.png in Resources */,
 				81D00C781024CC4300A42CFC /* tb_SplitHoriMid.png in Resources */,
@@ -7559,6 +7582,7 @@
 				81D00D6E1024CC4400A42CFC /* Cursor_NW.png in Resources */,
 				81D00D6F1024CC4500A42CFC /* Cursor_RightArrow.png in Resources */,
 				81D00D701024CC4500A42CFC /* Cursor_S.png in Resources */,
+				81FF92391CE01A3C0080CD27 /* tb_revision_new.png in Resources */,
 				81D00D711024CC4500A42CFC /* Cursor_SE.png in Resources */,
 				81D00D721024CC4500A42CFC /* Cursor_SW.png in Resources */,
 				81D00D731024CC4500A42CFC /* Cursor_W.png in Resources */,
@@ -8396,8 +8420,6 @@
 		810F838912014A2A002759C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PRODUCT_NAME = "AbiWord and Plugins";
 			};
@@ -8406,8 +8428,6 @@
 		810F838A12014A2A002759C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PRODUCT_NAME = "AbiWord and Plugins";
 				ZERO_LINK = NO;
@@ -8966,7 +8986,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
 				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
@@ -9019,7 +9038,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
 				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
