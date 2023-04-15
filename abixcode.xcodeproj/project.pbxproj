@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -22,7 +22,7 @@
 				810F83A712014A8F002759C5 /* PBXTargetDependency */,
 				810F83A912014A8F002759C5 /* PBXTargetDependency */,
 				810F83AB12014A8F002759C5 /* PBXTargetDependency */,
-				810F83AD12014A8F002759C5 /* PBXTargetDependency */,
+				814AC51A273430DD0055F252 /* PBXTargetDependency */,
 				810F83AF12014A8F002759C5 /* PBXTargetDependency */,
 				810F83B112014A8F002759C5 /* PBXTargetDependency */,
 			);
@@ -36,11 +36,9 @@
 		8105D5A41CDE6FC100C920CB /* ie_exp_RTF_AttrProp.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D000641024CC2600A42CFC /* ie_exp_RTF_AttrProp.h */; };
 		8105D5A81CDF7B9A00C920CB /* ie_exp_XML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8105D5A61CDF7B5C00C920CB /* ie_exp_XML.cpp */; };
 		8105D5A91CDF7B9A00C920CB /* ie_exp_XML.h in Headers */ = {isa = PBXBuildFile; fileRef = 8105D5A71CDF7B7600C920CB /* ie_exp_XML.h */; };
-		8105D5AB1CDF7BE900C920CB /* ut_strptime.c in Sources */ = {isa = PBXBuildFile; fileRef = 8105D5AA1CDF7BD400C920CB /* ut_strptime.c */; };
 		8105D5AE1CDF7C4A00C920CB /* fv_SelectionHandles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8105D5AC1CDF7C2700C920CB /* fv_SelectionHandles.cpp */; };
 		8105D5AF1CDF7C4A00C920CB /* fv_SelectionHandles.h in Headers */ = {isa = PBXBuildFile; fileRef = 8105D5AD1CDF7C2700C920CB /* fv_SelectionHandles.h */; };
 		8105D5B01CDF7C5E00C920CB /* libgio-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CD34CA10E351D100CDEDD8 /* libgio-2.0.0.dylib */; };
-		810F83BD12014AEE002759C5 /* liblink-grammar.5.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81CD368110E470E500CDEDD8 /* liblink-grammar.5.dylib */; };
 		810F83BE12014B0A002759C5 /* libwpd-0.10.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81CD343410E34AE500CDEDD8 /* libwpd-0.10.dylib */; };
 		810F83BF12014B18002759C5 /* libwmf-0.2.7.1.0.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81CD346510E34C2C00CDEDD8 /* libwmf-0.2.7.1.0.dylib */; };
 		810F83C012014B18002759C5 /* libwmflite-0.2.7.0.1.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81CD348B10E34CBE00CDEDD8 /* libwmflite-0.2.7.0.1.dylib */; };
@@ -258,11 +256,34 @@
 		8115DCE910DB364E009D9DEA /* ie_imp_WordPerfect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8115DA9910DB3428009D9DEA /* ie_imp_WordPerfect.cpp */; };
 		8115DCEA10DB3658009D9DEA /* ie_impGraphic_WPG.h in Headers */ = {isa = PBXBuildFile; fileRef = 8115DAAB10DB3428009D9DEA /* ie_impGraphic_WPG.h */; };
 		8115DCEB10DB3658009D9DEA /* ie_impGraphic_WPG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8115DAAA10DB3428009D9DEA /* ie_impGraphic_WPG.cpp */; };
+		81236BBF270C0B640050FA22 /* gr_CocoaGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81236BB1270C0A890050FA22 /* gr_CocoaGraphics.cpp */; };
+		81236BC0270C0B640050FA22 /* gr_CocoaGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 81236BB2270C0A890050FA22 /* gr_CocoaGraphics.h */; };
+		81236C0F270C898B0050FA22 /* gr_CocoaFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81236C0D270C898B0050FA22 /* gr_CocoaFont.cpp */; };
+		81236C10270C898B0050FA22 /* gr_CocoaFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 81236C0E270C898B0050FA22 /* gr_CocoaFont.h */; };
+		81236C65270CD9810050FA22 /* gr_CocoaImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F2121024CBE400A42CFC /* gr_CocoaImage.h */; };
 		812AE56911B5EEEC00113C91 /* ie_exp_DocRangeListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 812AE56711B5EEEC00113C91 /* ie_exp_DocRangeListener.cpp */; };
 		812AE56A11B5EEEC00113C91 /* ie_exp_DocRangeListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 812AE56811B5EEEC00113C91 /* ie_exp_DocRangeListener.h */; };
 		812AE58911B5EF3000113C91 /* ODe_TOC_Listener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 812AE58711B5EF3000113C91 /* ODe_TOC_Listener.cpp */; };
 		812AE58A11B5EF3000113C91 /* ODe_TOC_Listener.h in Headers */ = {isa = PBXBuildFile; fileRef = 812AE58811B5EF3000113C91 /* ODe_TOC_Listener.h */; };
+		812D3B85270BD54A00BBEB32 /* ut_option.h in Headers */ = {isa = PBXBuildFile; fileRef = 812D3B84270BD53400BBEB32 /* ut_option.h */; };
+		812D3B91270BD54D00BBEB32 /* ut_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 812D3B81270BD53400BBEB32 /* ut_export.h */; };
+		812D3B9D270BD55100BBEB32 /* ut_conversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 812D3B83270BD53400BBEB32 /* ut_conversion.h */; };
+		812D3BA9270BD55400BBEB32 /* ut_compiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 812D3B82270BD53400BBEB32 /* ut_compiler.h */; };
+		812D3BB6270BD58100BBEB32 /* ut_std_vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 812D3BB5270BD58100BBEB32 /* ut_std_vector.h */; };
+		812D3BE6270BD8BF00BBEB32 /* fp_RDFAnchorRun.h in Headers */ = {isa = PBXBuildFile; fileRef = 812D3BE3270BD8BE00BBEB32 /* fp_RDFAnchorRun.h */; };
+		812D3BE7270BD8BF00BBEB32 /* fp_AnnotationRun.h in Headers */ = {isa = PBXBuildFile; fileRef = 812D3BE4270BD8BE00BBEB32 /* fp_AnnotationRun.h */; };
+		812D3BE8270BD8BF00BBEB32 /* fp_FmtMarkRun.h in Headers */ = {isa = PBXBuildFile; fileRef = 812D3BE5270BD8BE00BBEB32 /* fp_FmtMarkRun.h */; };
+		812D3BF5270BD95E00BBEB32 /* libenchant-2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 812D3BF4270BD95E00BBEB32 /* libenchant-2.2.dylib */; };
+		812D3C0E270BD9A200BBEB32 /* fl_PartOfBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 812D3C0C270BD9A200BBEB32 /* fl_PartOfBlock.h */; };
+		812D3C0F270BD9A200BBEB32 /* fl_PartOfBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 812D3C0D270BD9A200BBEB32 /* fl_PartOfBlock.cpp */; };
 		81411D55102A327100146213 /* ap_CocoaDialog_Annotation.nib in Resources */ = {isa = PBXBuildFile; fileRef = 81411D54102A327100146213 /* ap_CocoaDialog_Annotation.nib */; };
+		814AC4D7271E67F20055F252 /* gr_CoreGraphicsUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 814AC4D6271E67F20055F252 /* gr_CoreGraphicsUtils.h */; };
+		814AC4E52730C0570055F252 /* ut_null.h in Headers */ = {isa = PBXBuildFile; fileRef = 814AC4E42730C0560055F252 /* ut_null.h */; };
+		814AC50B27323CDB0055F252 /* ut_null.h in Headers */ = {isa = PBXBuildFile; fileRef = 814AC4E42730C0560055F252 /* ut_null.h */; };
+		814AC518273430C00055F252 /* liblink-grammar.5.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81CD368110E470E500CDEDD8 /* liblink-grammar.5.dylib */; };
+		815EB8992710A00F000BAD0B /* fv_View.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F8421024CBF900A42CFC /* fv_View.h */; };
+		815EB8B22710A020000BAD0B /* fv_View.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F8421024CBF900A42CFC /* fv_View.h */; };
+		815EB8FC27114299000BAD0B /* xap_Drawable.h in Headers */ = {isa = PBXBuildFile; fileRef = 815EB8FB27114299000BAD0B /* xap_Drawable.h */; };
 		8175A18410E73608003DE86D /* docinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8175A16D10E7354B003DE86D /* docinfo.cpp */; };
 		8175A18510E73609003DE86D /* docinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8175A16E10E7354B003DE86D /* docinfo.h */; };
 		8175A18610E7360A003DE86D /* ie_imp_StarOffice_encodings.h in Headers */ = {isa = PBXBuildFile; fileRef = 8175A17210E7354B003DE86D /* ie_imp_StarOffice_encodings.h */; };
@@ -415,7 +436,6 @@
 		8175A52110E9D549003DE86D /* ap_CocoaDialog_New.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0FA5C1024CC0400A42CFC /* ap_CocoaDialog_New.h */; };
 		8175A52210E9D549003DE86D /* ap_CocoaDialog_Options.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0FA601024CC0400A42CFC /* ap_CocoaDialog_Options.h */; };
 		8175A52310E9D549003DE86D /* ap_CocoaDialog_PageNumbers.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0FA651024CC0400A42CFC /* ap_CocoaDialog_PageNumbers.h */; };
-		8175A52410E9D549003DE86D /* ap_CocoaDialog_PageSetup.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0FA691024CC0400A42CFC /* ap_CocoaDialog_PageSetup.h */; };
 		8175A52510E9D549003DE86D /* ap_CocoaDialog_Paragraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0FA6D1024CC0400A42CFC /* ap_CocoaDialog_Paragraph.h */; };
 		8175A52610E9D549003DE86D /* ap_CocoaDialog_Replace.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0FA711024CC0400A42CFC /* ap_CocoaDialog_Replace.h */; };
 		8175A52710E9D549003DE86D /* ap_CocoaDialog_Spell.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0FA751024CC0500A42CFC /* ap_CocoaDialog_Spell.h */; };
@@ -427,7 +447,6 @@
 		8175A52D10E9D549003DE86D /* ap_CocoaDialog_ToggleCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0FA8E1024CC0500A42CFC /* ap_CocoaDialog_ToggleCase.h */; };
 		8175A52E10E9D549003DE86D /* ap_CocoaDialog_WordCount.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0FA921024CC0500A42CFC /* ap_CocoaDialog_WordCount.h */; };
 		8175A52F10E9D549003DE86D /* ap_CocoaFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0FA981024CC0500A42CFC /* ap_CocoaFrame.h */; };
-		8175A53010E9D549003DE86D /* ap_CocoaFrameImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0FA9C1024CC0500A42CFC /* ap_CocoaFrameImpl.h */; };
 		8175A53110E9D549003DE86D /* ap_CocoaLeftRuler.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0FAA01024CC0500A42CFC /* ap_CocoaLeftRuler.h */; };
 		8175A53210E9D549003DE86D /* ap_CocoaPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0FAA31024CC0500A42CFC /* ap_CocoaPlugin.h */; };
 		8175A53310E9D549003DE86D /* ap_CocoaPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0FAA61024CC0500A42CFC /* ap_CocoaPrefs.h */; };
@@ -617,15 +636,10 @@
 		8175A5EB10E9D549003DE86D /* fv_FrameEdit.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F8391024CBF900A42CFC /* fv_FrameEdit.h */; };
 		8175A5EC10E9D549003DE86D /* fv_InlineImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F83C1024CBF900A42CFC /* fv_InlineImage.h */; };
 		8175A5ED10E9D549003DE86D /* fv_Selection.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F83F1024CBF900A42CFC /* fv_Selection.h */; };
-		8175A5EE10E9D549003DE86D /* fv_View.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F8421024CBF900A42CFC /* fv_View.h */; };
 		8175A5EF10E9D549003DE86D /* fv_VisualDragText.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F84B1024CBF900A42CFC /* fv_VisualDragText.h */; };
-		8175A5F010E9D549003DE86D /* gr_CairoGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F2661024CBE500A42CFC /* gr_CairoGraphics.h */; };
-		8175A5F110E9D549003DE86D /* gr_CairoNullGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 81337A3E102DDF830041F19C /* gr_CairoNullGraphics.h */; };
 		8175A5F210E9D549003DE86D /* gr_Caret.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F2691024CBE500A42CFC /* gr_Caret.h */; };
 		8175A5F310E9D549003DE86D /* gr_CharWidths.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F26C1024CBE500A42CFC /* gr_CharWidths.h */; };
 		8175A5F410E9D549003DE86D /* gr_CharWidthsCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F26F1024CBE500A42CFC /* gr_CharWidthsCache.h */; };
-		8175A5F510E9D549003DE86D /* gr_CocoaCairoGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F20E1024CBE400A42CFC /* gr_CocoaCairoGraphics.h */; };
-		8175A5F610E9D549003DE86D /* gr_CocoaImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F2121024CBE400A42CFC /* gr_CocoaImage.h */; };
 		8175A5F710E9D549003DE86D /* gr_Control.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F2711024CBE500A42CFC /* gr_Control.h */; };
 		8175A5F810E9D549003DE86D /* gr_DrawArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F2731024CBE500A42CFC /* gr_DrawArgs.h */; };
 		8175A5F910E9D549003DE86D /* gr_EmbedManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F2761024CBE500A42CFC /* gr_EmbedManager.h */; };
@@ -780,18 +794,15 @@
 		8175A68F10E9D549003DE86D /* xap_Cocoa_TB_CFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4691024CBEC00A42CFC /* xap_Cocoa_TB_CFactory.h */; };
 		8175A69010E9D549003DE86D /* xap_CocoaAbiConversions.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F46B1024CBEC00A42CFC /* xap_CocoaAbiConversions.h */; };
 		8175A69110E9D549003DE86D /* xap_CocoaApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F46E1024CBEC00A42CFC /* xap_CocoaApp.h */; };
-		8175A69210E9D549003DE86D /* xap_CocoaAppController.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4711024CBEC00A42CFC /* xap_CocoaAppController.h */; };
 		8175A69310E9D549003DE86D /* xap_CocoaAppImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4741024CBEC00A42CFC /* xap_CocoaAppImpl.h */; };
 		8175A69410E9D549003DE86D /* xap_CocoaAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4771024CBEC00A42CFC /* xap_CocoaAssert.h */; };
 		8175A69510E9D549003DE86D /* xap_CocoaClipboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F47A1024CBEC00A42CFC /* xap_CocoaClipboard.h */; };
-		8175A69610E9D549003DE86D /* xap_CocoaCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8115D81710D8C6A9009D9DEA /* xap_CocoaCompat.h */; };
 		8175A69710E9D549003DE86D /* xap_CocoaDialog_Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F47D1024CBEC00A42CFC /* xap_CocoaDialog_Utilities.h */; };
 		8175A69810E9D549003DE86D /* xap_CocoaDialogFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F47F1024CBEC00A42CFC /* xap_CocoaDialogFactory.h */; };
 		8175A69910E9D549003DE86D /* xap_CocoaDlg_About.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4811024CBEC00A42CFC /* xap_CocoaDlg_About.h */; };
 		8175A69A10E9D549003DE86D /* xap_CocoaDlg_ClipArt.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4851024CBEC00A42CFC /* xap_CocoaDlg_ClipArt.h */; };
 		8175A69B10E9D549003DE86D /* xap_CocoaDlg_DocComparison.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4881024CBEC00A42CFC /* xap_CocoaDlg_DocComparison.h */; };
 		8175A69C10E9D549003DE86D /* xap_CocoaDlg_Encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F48C1024CBEC00A42CFC /* xap_CocoaDlg_Encoding.h */; };
-		8175A69D10E9D549003DE86D /* xap_CocoaDlg_FileOpenSaveAs.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4901024CBEC00A42CFC /* xap_CocoaDlg_FileOpenSaveAs.h */; };
 		8175A69E10E9D549003DE86D /* xap_CocoaDlg_FontChooser.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4931024CBEC00A42CFC /* xap_CocoaDlg_FontChooser.h */; };
 		8175A69F10E9D549003DE86D /* xap_CocoaDlg_History.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4971024CBEC00A42CFC /* xap_CocoaDlg_History.h */; };
 		8175A6A010E9D549003DE86D /* xap_CocoaDlg_HTMLOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F49C1024CBEC00A42CFC /* xap_CocoaDlg_HTMLOptions.h */; };
@@ -809,7 +820,6 @@
 		8175A6AC10E9D549003DE86D /* xap_CocoaEncodingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4C81024CBED00A42CFC /* xap_CocoaEncodingManager.h */; };
 		8175A6AD10E9D549003DE86D /* xap_CocoaFeatures.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4CA1024CBED00A42CFC /* xap_CocoaFeatures.h */; };
 		8175A6AE10E9D549003DE86D /* xap_CocoaFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4CE1024CBED00A42CFC /* xap_CocoaFrame.h */; };
-		8175A6AF10E9D549003DE86D /* xap_CocoaFrameImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4D11024CBED00A42CFC /* xap_CocoaFrameImpl.h */; };
 		8175A6B010E9D549003DE86D /* xap_CocoaModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4D41024CBED00A42CFC /* xap_CocoaModule.h */; };
 		8175A6B110E9D549003DE86D /* xap_CocoaPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4D71024CBED00A42CFC /* xap_CocoaPlugin.h */; };
 		8175A6B210E9D549003DE86D /* xap_CocoaTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D0F4DA1024CBED00A42CFC /* xap_CocoaTextView.h */; };
@@ -906,6 +916,17 @@
 		81B63E0E1156D0260050580E /* ODc_Crypto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81B63DE41156CE760050580E /* ODc_Crypto.cpp */; };
 		81B63E0F1156D0260050580E /* ODc_Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B63DE51156CE760050580E /* ODc_Crypto.h */; };
 		81B63E161156D10B0050580E /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F341024F7E400A42CFC /* libz.1.dylib */; };
+		81BE9037270E3F2B00B3205E /* ap_CocoaDialog_PageSetup.nib in Resources */ = {isa = PBXBuildFile; fileRef = 81D0FA6B1024CC0400A42CFC /* ap_CocoaDialog_PageSetup.nib */; };
+		81BE9051270E3FFA00B3205E /* ap_CocoaDialog_PageSetup.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE9050270E3FF900B3205E /* ap_CocoaDialog_PageSetup.h */; };
+		81BE9052270E3FFA00B3205E /* ap_CocoaDialog_PageSetup.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE9050270E3FF900B3205E /* ap_CocoaDialog_PageSetup.h */; };
+		81BE906C270E43B900B3205E /* xap_CocoaAppController.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE906B270E43B900B3205E /* xap_CocoaAppController.h */; };
+		81BE906D270E43B900B3205E /* xap_CocoaAppController.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE906B270E43B900B3205E /* xap_CocoaAppController.h */; };
+		81BE9087270E441B00B3205E /* ap_CocoaFrameImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE9086270E441B00B3205E /* ap_CocoaFrameImpl.h */; };
+		81BE9088270E441B00B3205E /* ap_CocoaFrameImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE9086270E441B00B3205E /* ap_CocoaFrameImpl.h */; };
+		81BE90AE270E445D00B3205E /* xap_CocoaFrameImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE90AD270E445D00B3205E /* xap_CocoaFrameImpl.h */; };
+		81BE90AF270E445D00B3205E /* xap_CocoaFrameImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE90AD270E445D00B3205E /* xap_CocoaFrameImpl.h */; };
+		81BE90ED270E79B400B3205E /* xap_CocoaDlg_FileOpenSaveAs.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE90EC270E79B300B3205E /* xap_CocoaDlg_FileOpenSaveAs.h */; };
+		81BE90EE270E79B400B3205E /* xap_CocoaDlg_FileOpenSaveAs.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE90EC270E79B300B3205E /* xap_CocoaDlg_FileOpenSaveAs.h */; };
 		81CD2F2610E32FF400CDEDD8 /* libgsf-1.114.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F1C1024F79700A42CFC /* libgsf-1.114.dylib */; };
 		81CD2F2910E3300100CDEDD8 /* libglib-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F191024F79700A42CFC /* libglib-2.0.0.dylib */; };
 		81CD2F2C10E3301400CDEDD8 /* libgobject-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F1B1024F79700A42CFC /* libgobject-2.0.0.dylib */; };
@@ -1127,12 +1148,9 @@
 		81CD32F910E3481A00CDEDD8 /* fv_View_protected.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F8461024CBF900A42CFC /* fv_View_protected.cpp */; };
 		81CD32FA10E3481A00CDEDD8 /* fv_View_TestRoutines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F8481024CBF900A42CFC /* fv_View_TestRoutines.cpp */; };
 		81CD32FB10E3481A00CDEDD8 /* fv_VisualDragText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F84A1024CBF900A42CFC /* fv_VisualDragText.cpp */; };
-		81CD32FC10E3481A00CDEDD8 /* gr_CairoGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F2651024CBE500A42CFC /* gr_CairoGraphics.cpp */; };
-		81CD32FD10E3481A00CDEDD8 /* gr_CairoNullGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81337A3D102DDF830041F19C /* gr_CairoNullGraphics.cpp */; };
 		81CD32FE10E3481A00CDEDD8 /* gr_Caret.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F2681024CBE500A42CFC /* gr_Caret.cpp */; };
 		81CD32FF10E3481A00CDEDD8 /* gr_CharWidths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F26B1024CBE500A42CFC /* gr_CharWidths.cpp */; };
 		81CD330010E3481A00CDEDD8 /* gr_CharWidthsCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F26E1024CBE500A42CFC /* gr_CharWidthsCache.cpp */; };
-		81CD330110E3481A00CDEDD8 /* gr_CocoaCairoGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F20D1024CBE400A42CFC /* gr_CocoaCairoGraphics.cpp */; };
 		81CD330210E3481A00CDEDD8 /* gr_CocoaImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F2111024CBE400A42CFC /* gr_CocoaImage.cpp */; };
 		81CD330310E3481A00CDEDD8 /* gr_DrawArgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F2721024CBE500A42CFC /* gr_DrawArgs.cpp */; };
 		81CD330410E3481A00CDEDD8 /* gr_EmbedManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F2751024CBE500A42CFC /* gr_EmbedManager.cpp */; };
@@ -1275,7 +1293,6 @@
 		81CD338F10E3481A00CDEDD8 /* ut_unixMisc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F2CD1024CBE600A42CFC /* ut_unixMisc.cpp */; };
 		81CD339010E3481A00CDEDD8 /* ut_unixTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F2CF1024CBE600A42CFC /* ut_unixTimer.cpp */; };
 		81CD339110E3481A00CDEDD8 /* ut_uuid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F3EB1024CBE900A42CFC /* ut_uuid.cpp */; };
-		81CD339210E3481A00CDEDD8 /* ut_vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F3EE1024CBE900A42CFC /* ut_vector.cpp */; };
 		81CD339310E3481A00CDEDD8 /* ut_wctomb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F3F21024CBE900A42CFC /* ut_wctomb.cpp */; };
 		81CD339410E3481A00CDEDD8 /* ut_worker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F3F51024CBE900A42CFC /* ut_worker.cpp */; };
 		81CD339510E3481A00CDEDD8 /* ut_xml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81D0F3F81024CBEA00A42CFC /* ut_xml.cpp */; };
@@ -1385,8 +1402,6 @@
 		81CD341110E34A2D00CDEDD8 /* libwv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F381024F9D400A42CFC /* libwv.dylib */; };
 		81CD341210E34A2D00CDEDD8 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F331024F7E400A42CFC /* libxml2.2.dylib */; };
 		81CD341310E34A2D00CDEDD8 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F341024F7E400A42CFC /* libz.1.dylib */; };
-		81CD341410E34A2D00CDEDD8 /* libcairo.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F161024F79700A42CFC /* libcairo.2.dylib */; };
-		81CD341510E34A2D00CDEDD8 /* libenchant.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F171024F79700A42CFC /* libenchant.1.dylib */; };
 		81CD341610E34A2D00CDEDD8 /* libfribidi.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F181024F79700A42CFC /* libfribidi.0.dylib */; };
 		81CD341710E34A2D00CDEDD8 /* libglib-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F191024F79700A42CFC /* libglib-2.0.0.dylib */; };
 		81CD341810E34A2D00CDEDD8 /* libgmodule-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F1A1024F79700A42CFC /* libgmodule-2.0.0.dylib */; };
@@ -1394,8 +1409,6 @@
 		81CD341A10E34A2D00CDEDD8 /* libgsf-1.114.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F1C1024F79700A42CFC /* libgsf-1.114.dylib */; };
 		81CD341B10E34A2D00CDEDD8 /* libgthread-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F1D1024F79700A42CFC /* libgthread-2.0.0.dylib */; };
 		81CD341C10E34A2D00CDEDD8 /* libjpeg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F1E1024F79700A42CFC /* libjpeg.dylib */; };
-		81CD341D10E34A2D00CDEDD8 /* libpango-1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F1F1024F79700A42CFC /* libpango-1.0.dylib */; };
-		81CD341E10E34A2D00CDEDD8 /* libpangocairo-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F201024F79700A42CFC /* libpangocairo-1.0.0.dylib */; };
 		81CD341F10E34A2D00CDEDD8 /* libpng16.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F211024F79700A42CFC /* libpng16.dylib */; };
 		81CD342510E34A5200CDEDD8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		81CD342C10E34A9A00CDEDD8 /* libgobject-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F1B1024F79700A42CFC /* libgobject-2.0.0.dylib */; };
@@ -1461,7 +1474,6 @@
 		81D008381024CC3D00A42CFC /* ap_CocoaDialog_New.nib in Resources */ = {isa = PBXBuildFile; fileRef = 81D0FA5E1024CC0400A42CFC /* ap_CocoaDialog_New.nib */; };
 		81D0083B1024CC3D00A42CFC /* ap_CocoaDialog_Options.nib in Resources */ = {isa = PBXBuildFile; fileRef = 81D0FA621024CC0400A42CFC /* ap_CocoaDialog_Options.nib */; };
 		81D0083F1024CC3D00A42CFC /* ap_CocoaDialog_PageNumbers.nib in Resources */ = {isa = PBXBuildFile; fileRef = 81D0FA671024CC0400A42CFC /* ap_CocoaDialog_PageNumbers.nib */; };
-		81D008421024CC3D00A42CFC /* ap_CocoaDialog_PageSetup.nib in Resources */ = {isa = PBXBuildFile; fileRef = 81D0FA6B1024CC0400A42CFC /* ap_CocoaDialog_PageSetup.nib */; };
 		81D008451024CC3D00A42CFC /* ap_CocoaDialog_Paragraph.nib in Resources */ = {isa = PBXBuildFile; fileRef = 81D0FA6F1024CC0400A42CFC /* ap_CocoaDialog_Paragraph.nib */; };
 		81D008481024CC3D00A42CFC /* ap_CocoaDialog_Replace.nib in Resources */ = {isa = PBXBuildFile; fileRef = 81D0FA731024CC0400A42CFC /* ap_CocoaDialog_Replace.nib */; };
 		81D0084B1024CC3D00A42CFC /* ap_CocoaDialog_Spell.nib in Resources */ = {isa = PBXBuildFile; fileRef = 81D0FA771024CC0500A42CFC /* ap_CocoaDialog_Spell.nib */; };
@@ -1664,8 +1676,6 @@
 		81D00D811024CC4500A42CFC /* TXTDocument.icns in Resources */ = {isa = PBXBuildFile; fileRef = 81D000DF1024CC2800A42CFC /* TXTDocument.icns */; };
 		81D00D821024CC4500A42CFC /* WPDDocument.icns in Resources */ = {isa = PBXBuildFile; fileRef = 81D000E01024CC2800A42CFC /* WPDDocument.icns */; };
 		81D00D851024CC4500A42CFC /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 81D000E31024CC2900A42CFC /* MainMenu.nib */; };
-		81D00F231024F79700A42CFC /* libcairo.2.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F161024F79700A42CFC /* libcairo.2.dylib */; };
-		81D00F241024F79700A42CFC /* libenchant.1.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F171024F79700A42CFC /* libenchant.1.dylib */; };
 		81D00F251024F79700A42CFC /* libfribidi.0.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F181024F79700A42CFC /* libfribidi.0.dylib */; };
 		81D00F261024F79700A42CFC /* libglib-2.0.0.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F191024F79700A42CFC /* libglib-2.0.0.dylib */; };
 		81D00F271024F79700A42CFC /* libgmodule-2.0.0.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F1A1024F79700A42CFC /* libgmodule-2.0.0.dylib */; };
@@ -1673,8 +1683,6 @@
 		81D00F291024F79700A42CFC /* libgsf-1.114.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F1C1024F79700A42CFC /* libgsf-1.114.dylib */; };
 		81D00F2A1024F79700A42CFC /* libgthread-2.0.0.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F1D1024F79700A42CFC /* libgthread-2.0.0.dylib */; };
 		81D00F2B1024F79700A42CFC /* libjpeg.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F1E1024F79700A42CFC /* libjpeg.dylib */; };
-		81D00F2C1024F79700A42CFC /* libpango-1.0.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F1F1024F79700A42CFC /* libpango-1.0.dylib */; };
-		81D00F2D1024F79700A42CFC /* libpangocairo-1.0.0.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F201024F79700A42CFC /* libpangocairo-1.0.0.dylib */; };
 		81D00F2E1024F79700A42CFC /* libpng16.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F211024F79700A42CFC /* libpng16.dylib */; };
 		81D00F391024F9D400A42CFC /* libwv.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F381024F9D400A42CFC /* libwv.dylib */; };
 		81E01D9C1CDF80C800F629FA /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D00F331024F7E400A42CFC /* libxml2.2.dylib */; };
@@ -1801,13 +1809,6 @@
 			remoteGlobalIDString = 81CD2FD810E3412A00CDEDD8;
 			remoteInfo = WMF;
 		};
-		810F83AC12014A8F002759C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 81CD364D10E46FE600CDEDD8;
-			remoteInfo = Grammar;
-		};
 		810F83AE12014A8F002759C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
@@ -1821,6 +1822,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8175A29410E97197003DE86D;
 			remoteInfo = ClarisWorks;
+		};
+		814AC519273430DD0055F252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81CD364D10E46FE600CDEDD8;
+			remoteInfo = Grammar;
 		};
 		81CD342810E34A6E00CDEDD8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1848,12 +1856,12 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				814AC518273430C00055F252 /* liblink-grammar.5.dylib in Copy Frameworks */,
 				81FF92231CE00E510080CD27 /* librevenge-0.0.0.dylib in Copy Frameworks */,
 				810F83BF12014B18002759C5 /* libwmf-0.2.7.1.0.dylib in Copy Frameworks */,
 				810F83C012014B18002759C5 /* libwmflite-0.2.7.0.1.dylib in Copy Frameworks */,
 				810F83BE12014B0A002759C5 /* libwpd-0.10.dylib in Copy Frameworks */,
 				810F83C112014B21002759C5 /* libwpg-0.3.dylib in Copy Frameworks */,
-				810F83BD12014AEE002759C5 /* liblink-grammar.5.dylib in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1866,16 +1874,12 @@
 			files = (
 				81D00F291024F79700A42CFC /* libgsf-1.114.dylib in Copy Frameworks */,
 				81CD34CC10E351E500CDEDD8 /* libgio-2.0.0.dylib in Copy Frameworks */,
-				81D00F231024F79700A42CFC /* libcairo.2.dylib in Copy Frameworks */,
-				81D00F241024F79700A42CFC /* libenchant.1.dylib in Copy Frameworks */,
 				81D00F251024F79700A42CFC /* libfribidi.0.dylib in Copy Frameworks */,
 				81D00F261024F79700A42CFC /* libglib-2.0.0.dylib in Copy Frameworks */,
 				81D00F271024F79700A42CFC /* libgmodule-2.0.0.dylib in Copy Frameworks */,
 				81D00F281024F79700A42CFC /* libgobject-2.0.0.dylib in Copy Frameworks */,
 				81D00F2A1024F79700A42CFC /* libgthread-2.0.0.dylib in Copy Frameworks */,
 				81D00F2B1024F79700A42CFC /* libjpeg.dylib in Copy Frameworks */,
-				81D00F2C1024F79700A42CFC /* libpango-1.0.dylib in Copy Frameworks */,
-				81D00F2D1024F79700A42CFC /* libpangocairo-1.0.0.dylib in Copy Frameworks */,
 				81D00F2E1024F79700A42CFC /* libpng16.dylib in Copy Frameworks */,
 				81D00F391024F9D400A42CFC /* libwv.dylib in Copy Frameworks */,
 				81CD340610E348AC00CDEDD8 /* libabiword.dylib in Copy Frameworks */,
@@ -1894,7 +1898,6 @@
 		8105D5AA1CDF7BD400C920CB /* ut_strptime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ut_strptime.c; sourceTree = "<group>"; };
 		8105D5AC1CDF7C2700C920CB /* fv_SelectionHandles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fv_SelectionHandles.cpp; sourceTree = "<group>"; };
 		8105D5AD1CDF7C2700C920CB /* fv_SelectionHandles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fv_SelectionHandles.h; sourceTree = "<group>"; };
-		8115D81710D8C6A9009D9DEA /* xap_CocoaCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xap_CocoaCompat.h; sourceTree = "<group>"; };
 		8115D90410DB3427009D9DEA /* ie_impexp_OpenDocument.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ie_impexp_OpenDocument.cpp; sourceTree = "<group>"; };
 		8115D92710DB3427009D9DEA /* ie_exp_OpenDocument.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ie_exp_OpenDocument.cpp; sourceTree = "<group>"; };
 		8115D92810DB3427009D9DEA /* ie_exp_OpenDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ie_exp_OpenDocument.h; sourceTree = "<group>"; };
@@ -2114,17 +2117,34 @@
 		8115DC7210DB35FF009D9DEA /* WordPerfect.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = WordPerfect.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		8115DC7910DB360E009D9DEA /* OpenWriter.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = OpenWriter.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		8115DC8010DB3620009D9DEA /* WordPerfectGraphics.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = WordPerfectGraphics.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		81236B74270BE0420050FA22 /* AbiWord.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AbiWord.entitlements; sourceTree = "<group>"; };
+		81236BB1270C0A890050FA22 /* gr_CocoaGraphics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = gr_CocoaGraphics.cpp; path = ../../../../../AbiWord/src/af/gr/cocoa/gr_CocoaGraphics.cpp; sourceTree = "<group>"; };
+		81236BB2270C0A890050FA22 /* gr_CocoaGraphics.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = gr_CocoaGraphics.h; path = ../../../../../AbiWord/src/af/gr/cocoa/gr_CocoaGraphics.h; sourceTree = "<group>"; };
+		81236C0D270C898B0050FA22 /* gr_CocoaFont.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = gr_CocoaFont.cpp; path = ../../../../../AbiWord/src/af/gr/cocoa/gr_CocoaFont.cpp; sourceTree = "<group>"; };
+		81236C0E270C898B0050FA22 /* gr_CocoaFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gr_CocoaFont.h; path = ../../../../../AbiWord/src/af/gr/cocoa/gr_CocoaFont.h; sourceTree = "<group>"; };
 		812AE56711B5EEEC00113C91 /* ie_exp_DocRangeListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ie_exp_DocRangeListener.cpp; sourceTree = "<group>"; };
 		812AE56811B5EEEC00113C91 /* ie_exp_DocRangeListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ie_exp_DocRangeListener.h; sourceTree = "<group>"; };
 		812AE58711B5EF3000113C91 /* ODe_TOC_Listener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ODe_TOC_Listener.cpp; sourceTree = "<group>"; };
 		812AE58811B5EF3000113C91 /* ODe_TOC_Listener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODe_TOC_Listener.h; sourceTree = "<group>"; };
+		812D3B81270BD53400BBEB32 /* ut_export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ut_export.h; path = ../../../../../AbiWord/src/af/util/xp/ut_export.h; sourceTree = "<group>"; };
+		812D3B82270BD53400BBEB32 /* ut_compiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ut_compiler.h; path = ../../../../../AbiWord/src/af/util/xp/ut_compiler.h; sourceTree = "<group>"; };
+		812D3B83270BD53400BBEB32 /* ut_conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ut_conversion.h; path = ../../../../../AbiWord/src/af/util/xp/ut_conversion.h; sourceTree = "<group>"; };
+		812D3B84270BD53400BBEB32 /* ut_option.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; name = ut_option.h; path = ../../../../../AbiWord/src/af/util/xp/ut_option.h; sourceTree = "<group>"; tabWidth = 2; };
+		812D3BB5270BD58100BBEB32 /* ut_std_vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ut_std_vector.h; path = ../../../../../AbiWord/src/af/util/xp/ut_std_vector.h; sourceTree = "<group>"; };
+		812D3BE3270BD8BE00BBEB32 /* fp_RDFAnchorRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fp_RDFAnchorRun.h; path = ../../../../../AbiWord/src/text/fmt/xp/fp_RDFAnchorRun.h; sourceTree = "<group>"; };
+		812D3BE4270BD8BE00BBEB32 /* fp_AnnotationRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fp_AnnotationRun.h; path = ../../../../../AbiWord/src/text/fmt/xp/fp_AnnotationRun.h; sourceTree = "<group>"; };
+		812D3BE5270BD8BE00BBEB32 /* fp_FmtMarkRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fp_FmtMarkRun.h; path = ../../../../../AbiWord/src/text/fmt/xp/fp_FmtMarkRun.h; sourceTree = "<group>"; };
+		812D3BF4270BD95E00BBEB32 /* libenchant-2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libenchant-2.2.dylib"; path = "../Cellar/enchant/2.3.2/lib/libenchant-2.2.dylib"; sourceTree = "<group>"; };
+		812D3C0C270BD9A200BBEB32 /* fl_PartOfBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fl_PartOfBlock.h; path = ../../../../../AbiWord/src/text/fmt/xp/fl_PartOfBlock.h; sourceTree = "<group>"; };
+		812D3C0D270BD9A200BBEB32 /* fl_PartOfBlock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fl_PartOfBlock.cpp; path = ../../../../../AbiWord/src/text/fmt/xp/fl_PartOfBlock.cpp; sourceTree = "<group>"; };
 		81337657102B76A70041F19C /* ap_CocoaPreview_Annotation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ap_CocoaPreview_Annotation.cpp; sourceTree = "<group>"; };
 		81337658102B76A70041F19C /* ap_CocoaPreview_Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ap_CocoaPreview_Annotation.h; sourceTree = "<group>"; };
-		81337A3D102DDF830041F19C /* gr_CairoNullGraphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gr_CairoNullGraphics.cpp; sourceTree = "<group>"; };
-		81337A3E102DDF830041F19C /* gr_CairoNullGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gr_CairoNullGraphics.h; sourceTree = "<group>"; };
 		81411D35102A306300146213 /* ap_CocoaDialog_Annotation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ap_CocoaDialog_Annotation.cpp; sourceTree = "<group>"; };
 		81411D36102A306300146213 /* ap_CocoaDialog_Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ap_CocoaDialog_Annotation.h; sourceTree = "<group>"; };
 		81411D54102A327100146213 /* ap_CocoaDialog_Annotation.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Annotation.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Annotation.nib; sourceTree = SOURCE_ROOT; };
+		814AC4D6271E67F20055F252 /* gr_CoreGraphicsUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gr_CoreGraphicsUtils.h; path = ../../../../../AbiWord/src/af/gr/cocoa/gr_CoreGraphicsUtils.h; sourceTree = "<group>"; };
+		814AC4E42730C0560055F252 /* ut_null.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ut_null.h; path = ../../../../../AbiWord/src/af/util/xp/ut_null.h; sourceTree = "<group>"; };
+		815EB8FB27114299000BAD0B /* xap_Drawable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xap_Drawable.h; path = ../../../../../AbiWord/src/af/xap/xp/xap_Drawable.h; sourceTree = "<group>"; };
 		8175A16D10E7354B003DE86D /* docinfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = docinfo.cpp; sourceTree = "<group>"; };
 		8175A16E10E7354B003DE86D /* docinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = docinfo.h; sourceTree = "<group>"; };
 		8175A16F10E7354B003DE86D /* ie_imp_StarOffice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ie_imp_StarOffice.cpp; sourceTree = "<group>"; };
@@ -2249,7 +2269,7 @@
 		818E630B10F09CA800E0EF7C /* tidyReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tidyReader.cpp; sourceTree = "<group>"; };
 		818E630C10F09CA800E0EF7C /* tidyReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tidyReader.h; sourceTree = "<group>"; };
 		818E631110F09CD800E0EF7C /* MHT.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = MHT.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		81A4E2ED1112C0D800717AAF /* xap_CustomWidget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xap_CustomWidget.cpp; sourceTree = "<group>"; };
+		81A4E2ED1112C0D800717AAF /* xap_CustomWidget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xap_CustomWidget.cpp; sourceTree = "<group>"; usesTabs = 1; };
 		81A4E2EE1112C0D800717AAF /* xap_CustomWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xap_CustomWidget.h; sourceTree = "<group>"; };
 		81B63DDB1156CE760050580E /* gc-pbkdf2-sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "gc-pbkdf2-sha1.c"; sourceTree = "<group>"; };
 		81B63DDC1156CE760050580E /* gc-pbkdf2-sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gc-pbkdf2-sha1.h"; sourceTree = "<group>"; };
@@ -2261,6 +2281,11 @@
 		81B63DE31156CE760050580E /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
 		81B63DE41156CE760050580E /* ODc_Crypto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ODc_Crypto.cpp; sourceTree = "<group>"; };
 		81B63DE51156CE760050580E /* ODc_Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODc_Crypto.h; sourceTree = "<group>"; };
+		81BE9050270E3FF900B3205E /* ap_CocoaDialog_PageSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ap_CocoaDialog_PageSetup.h; path = ../../../../../AbiWord/src/wp/ap/cocoa/ap_CocoaDialog_PageSetup.h; sourceTree = "<group>"; };
+		81BE906B270E43B900B3205E /* xap_CocoaAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaAppController.h; path = ../../../../../AbiWord/src/af/xap/cocoa/xap_CocoaAppController.h; sourceTree = "<group>"; };
+		81BE9086270E441B00B3205E /* ap_CocoaFrameImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ap_CocoaFrameImpl.h; path = ../../../../../AbiWord/src/wp/ap/cocoa/ap_CocoaFrameImpl.h; sourceTree = "<group>"; };
+		81BE90AD270E445D00B3205E /* xap_CocoaFrameImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaFrameImpl.h; path = ../../../../../AbiWord/src/af/xap/cocoa/xap_CocoaFrameImpl.h; sourceTree = "<group>"; };
+		81BE90EC270E79B300B3205E /* xap_CocoaDlg_FileOpenSaveAs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaDlg_FileOpenSaveAs.h; path = ../../../../../AbiWord/src/af/xap/cocoa/xap_CocoaDlg_FileOpenSaveAs.h; sourceTree = "<group>"; usesTabs = 0; };
 		81CD2FD910E3412A00CDEDD8 /* WMF.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = WMF.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CD322310E347E000CDEDD8 /* libabiword.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libabiword.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CD343410E34AE500CDEDD8 /* libwpd-0.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libwpd-0.10.dylib"; sourceTree = "<group>"; };
@@ -2384,8 +2409,6 @@
 		81D000E21024CC2900A42CFC /* CocoaMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = CocoaMain.cpp; path = ../abiword/src/wp/main/cocoa/CocoaMain.cpp; sourceTree = SOURCE_ROOT; };
 		81D000E31024CC2900A42CFC /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = MainMenu.nib; path = ../abiword/src/wp/main/cocoa/MainMenu.nib; sourceTree = SOURCE_ROOT; };
 		81D000F71024CC2900A42CFC /* abi_ver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = abi_ver.cpp; path = ../abiword/src/wp/main/xp/abi_ver.cpp; sourceTree = SOURCE_ROOT; };
-		81D00F161024F79700A42CFC /* libcairo.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libcairo.2.dylib; sourceTree = "<group>"; };
-		81D00F171024F79700A42CFC /* libenchant.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libenchant.1.dylib; sourceTree = "<group>"; };
 		81D00F181024F79700A42CFC /* libfribidi.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfribidi.0.dylib; sourceTree = "<group>"; };
 		81D00F191024F79700A42CFC /* libglib-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglib-2.0.0.dylib"; path = "/usr/local/lib/libglib-2.0.0.dylib"; sourceTree = "<group>"; };
 		81D00F1A1024F79700A42CFC /* libgmodule-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgmodule-2.0.0.dylib"; path = "/usr/local/lib/libgmodule-2.0.0.dylib"; sourceTree = "<group>"; };
@@ -2393,8 +2416,6 @@
 		81D00F1C1024F79700A42CFC /* libgsf-1.114.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgsf-1.114.dylib"; path = "/usr/local/lib/libgsf-1.114.dylib"; sourceTree = "<group>"; };
 		81D00F1D1024F79700A42CFC /* libgthread-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgthread-2.0.0.dylib"; path = "/usr/local/lib/libgthread-2.0.0.dylib"; sourceTree = "<group>"; };
 		81D00F1E1024F79700A42CFC /* libjpeg.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.dylib; path = /usr/local/lib/libjpeg.dylib; sourceTree = "<group>"; };
-		81D00F1F1024F79700A42CFC /* libpango-1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpango-1.0.dylib"; path = "/usr/local/lib/libpango-1.0.dylib"; sourceTree = "<group>"; };
-		81D00F201024F79700A42CFC /* libpangocairo-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpangocairo-1.0.0.dylib"; path = "/usr/local/lib/libpangocairo-1.0.0.dylib"; sourceTree = "<group>"; };
 		81D00F211024F79700A42CFC /* libpng16.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libpng16.dylib; sourceTree = "<group>"; };
 		81D00F331024F7E400A42CFC /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = /usr/lib/libxml2.2.dylib; sourceTree = "<absolute>"; };
 		81D00F341024F7E400A42CFC /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = /usr/lib/libz.1.dylib; sourceTree = "<absolute>"; };
@@ -2408,8 +2429,8 @@
 		81D0F1491024CBE200A42CFC /* ev_CocoaMenuPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ev_CocoaMenuPopup.h; path = ../abiword/src/af/ev/cocoa/ev_CocoaMenuPopup.h; sourceTree = SOURCE_ROOT; };
 		81D0F14A1024CBE200A42CFC /* ev_CocoaMouse.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ev_CocoaMouse.cpp; path = ../abiword/src/af/ev/cocoa/ev_CocoaMouse.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F14B1024CBE200A42CFC /* ev_CocoaMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ev_CocoaMouse.h; path = ../abiword/src/af/ev/cocoa/ev_CocoaMouse.h; sourceTree = SOURCE_ROOT; };
-		81D0F14D1024CBE200A42CFC /* ev_CocoaToolbar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ev_CocoaToolbar.cpp; path = ../abiword/src/af/ev/cocoa/ev_CocoaToolbar.cpp; sourceTree = SOURCE_ROOT; };
-		81D0F14E1024CBE200A42CFC /* ev_CocoaToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ev_CocoaToolbar.h; path = ../abiword/src/af/ev/cocoa/ev_CocoaToolbar.h; sourceTree = SOURCE_ROOT; };
+		81D0F14D1024CBE200A42CFC /* ev_CocoaToolbar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ev_CocoaToolbar.cpp; path = ../abiword/src/af/ev/cocoa/ev_CocoaToolbar.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
+		81D0F14E1024CBE200A42CFC /* ev_CocoaToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ev_CocoaToolbar.h; path = ../abiword/src/af/ev/cocoa/ev_CocoaToolbar.h; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F1501024CBE200A42CFC /* ev_CocoaToolbar_ViewListener.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ev_CocoaToolbar_ViewListener.cpp; path = ../abiword/src/af/ev/cocoa/ev_CocoaToolbar_ViewListener.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F1511024CBE200A42CFC /* ev_CocoaToolbar_ViewListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ev_CocoaToolbar_ViewListener.h; path = ../abiword/src/af/ev/cocoa/ev_CocoaToolbar_ViewListener.h; sourceTree = SOURCE_ROOT; };
 		81D0F1CE1024CBE400A42CFC /* ev_EditBinding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ev_EditBinding.cpp; path = ../abiword/src/af/ev/xp/ev_EditBinding.cpp; sourceTree = SOURCE_ROOT; };
@@ -2444,27 +2465,23 @@
 		81D0F1F81024CBE400A42CFC /* ev_Toolbar_Labels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ev_Toolbar_Labels.h; path = ../abiword/src/af/ev/xp/ev_Toolbar_Labels.h; sourceTree = SOURCE_ROOT; };
 		81D0F1FA1024CBE400A42CFC /* ev_Toolbar_Layouts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ev_Toolbar_Layouts.cpp; path = ../abiword/src/af/ev/xp/ev_Toolbar_Layouts.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F1FB1024CBE400A42CFC /* ev_Toolbar_Layouts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ev_Toolbar_Layouts.h; path = ../abiword/src/af/ev/xp/ev_Toolbar_Layouts.h; sourceTree = SOURCE_ROOT; };
-		81D0F20D1024CBE400A42CFC /* gr_CocoaCairoGraphics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = gr_CocoaCairoGraphics.cpp; path = ../abiword/src/af/gr/cocoa/gr_CocoaCairoGraphics.cpp; sourceTree = SOURCE_ROOT; };
-		81D0F20E1024CBE400A42CFC /* gr_CocoaCairoGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gr_CocoaCairoGraphics.h; path = ../abiword/src/af/gr/cocoa/gr_CocoaCairoGraphics.h; sourceTree = SOURCE_ROOT; };
 		81D0F2111024CBE400A42CFC /* gr_CocoaImage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = gr_CocoaImage.cpp; path = ../abiword/src/af/gr/cocoa/gr_CocoaImage.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F2121024CBE400A42CFC /* gr_CocoaImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gr_CocoaImage.h; path = ../abiword/src/af/gr/cocoa/gr_CocoaImage.h; sourceTree = SOURCE_ROOT; };
 		81D0F2141024CBE400A42CFC /* leftright_cursor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leftright_cursor.png; path = ../abiword/src/af/gr/cocoa/leftright_cursor.png; sourceTree = SOURCE_ROOT; };
 		81D0F2191024CBE400A42CFC /* updown_cursor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = updown_cursor.png; path = ../abiword/src/af/gr/cocoa/updown_cursor.png; sourceTree = SOURCE_ROOT; };
-		81D0F2651024CBE500A42CFC /* gr_CairoGraphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gr_CairoGraphics.cpp; path = ../abiword/src/af/gr/xp/gr_CairoGraphics.cpp; sourceTree = SOURCE_ROOT; };
-		81D0F2661024CBE500A42CFC /* gr_CairoGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gr_CairoGraphics.h; path = ../abiword/src/af/gr/xp/gr_CairoGraphics.h; sourceTree = SOURCE_ROOT; };
 		81D0F2681024CBE500A42CFC /* gr_Caret.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gr_Caret.cpp; path = ../abiword/src/af/gr/xp/gr_Caret.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F2691024CBE500A42CFC /* gr_Caret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gr_Caret.h; path = ../abiword/src/af/gr/xp/gr_Caret.h; sourceTree = SOURCE_ROOT; };
 		81D0F26B1024CBE500A42CFC /* gr_CharWidths.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gr_CharWidths.cpp; path = ../abiword/src/af/gr/xp/gr_CharWidths.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F26C1024CBE500A42CFC /* gr_CharWidths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gr_CharWidths.h; path = ../abiword/src/af/gr/xp/gr_CharWidths.h; sourceTree = SOURCE_ROOT; };
 		81D0F26E1024CBE500A42CFC /* gr_CharWidthsCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gr_CharWidthsCache.cpp; path = ../abiword/src/af/gr/xp/gr_CharWidthsCache.cpp; sourceTree = SOURCE_ROOT; };
-		81D0F26F1024CBE500A42CFC /* gr_CharWidthsCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gr_CharWidthsCache.h; path = ../abiword/src/af/gr/xp/gr_CharWidthsCache.h; sourceTree = SOURCE_ROOT; };
+		81D0F26F1024CBE500A42CFC /* gr_CharWidthsCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gr_CharWidthsCache.h; path = ../abiword/src/af/gr/xp/gr_CharWidthsCache.h; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F2711024CBE500A42CFC /* gr_Control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gr_Control.h; path = ../abiword/src/af/gr/xp/gr_Control.h; sourceTree = SOURCE_ROOT; };
 		81D0F2721024CBE500A42CFC /* gr_DrawArgs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gr_DrawArgs.cpp; path = ../abiword/src/af/gr/xp/gr_DrawArgs.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F2731024CBE500A42CFC /* gr_DrawArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gr_DrawArgs.h; path = ../abiword/src/af/gr/xp/gr_DrawArgs.h; sourceTree = SOURCE_ROOT; };
 		81D0F2751024CBE500A42CFC /* gr_EmbedManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gr_EmbedManager.cpp; path = ../abiword/src/af/gr/xp/gr_EmbedManager.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F2761024CBE500A42CFC /* gr_EmbedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gr_EmbedManager.h; path = ../abiword/src/af/gr/xp/gr_EmbedManager.h; sourceTree = SOURCE_ROOT; };
 		81D0F2781024CBE500A42CFC /* gr_Graphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gr_Graphics.cpp; path = ../abiword/src/af/gr/xp/gr_Graphics.cpp; sourceTree = SOURCE_ROOT; };
-		81D0F2791024CBE500A42CFC /* gr_Graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gr_Graphics.h; path = ../abiword/src/af/gr/xp/gr_Graphics.h; sourceTree = SOURCE_ROOT; };
+		81D0F2791024CBE500A42CFC /* gr_Graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gr_Graphics.h; path = ../abiword/src/af/gr/xp/gr_Graphics.h; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F27B1024CBE500A42CFC /* gr_Image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gr_Image.cpp; path = ../abiword/src/af/gr/xp/gr_Image.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F27C1024CBE500A42CFC /* gr_Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gr_Image.h; path = ../abiword/src/af/gr/xp/gr_Image.h; sourceTree = SOURCE_ROOT; };
 		81D0F27E1024CBE500A42CFC /* gr_Painter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gr_Painter.cpp; path = ../abiword/src/af/gr/xp/gr_Painter.cpp; sourceTree = SOURCE_ROOT; };
@@ -2492,7 +2509,7 @@
 		81D0F2D01024CBE600A42CFC /* ut_unixTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ut_unixTimer.h; path = ../abiword/src/af/util/unix/ut_unixTimer.h; sourceTree = SOURCE_ROOT; };
 		81D0F36D1024CBE800A42CFC /* ut_AdobeEncoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ut_AdobeEncoding.cpp; path = ../abiword/src/af/util/xp/ut_AdobeEncoding.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F36E1024CBE800A42CFC /* ut_AdobeEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ut_AdobeEncoding.h; path = ../abiword/src/af/util/xp/ut_AdobeEncoding.h; sourceTree = SOURCE_ROOT; };
-		81D0F3701024CBE800A42CFC /* ut_assert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ut_assert.h; path = ../abiword/src/af/util/xp/ut_assert.h; sourceTree = SOURCE_ROOT; };
+		81D0F3701024CBE800A42CFC /* ut_assert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ut_assert.h; path = ../abiword/src/af/util/xp/ut_assert.h; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F3711024CBE800A42CFC /* ut_base64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ut_base64.cpp; path = ../abiword/src/af/util/xp/ut_base64.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F3721024CBE800A42CFC /* ut_base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ut_base64.h; path = ../abiword/src/af/util/xp/ut_base64.h; sourceTree = SOURCE_ROOT; };
 		81D0F3741024CBE800A42CFC /* ut_base64_TestRoutines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ut_base64_TestRoutines.cpp; path = ../abiword/src/af/util/xp/ut_base64_TestRoutines.cpp; sourceTree = SOURCE_ROOT; };
@@ -2577,7 +2594,6 @@
 		81D0F3E91024CBE900A42CFC /* ut_units.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ut_units.h; path = ../abiword/src/af/util/xp/ut_units.h; sourceTree = SOURCE_ROOT; };
 		81D0F3EB1024CBE900A42CFC /* ut_uuid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ut_uuid.cpp; path = ../abiword/src/af/util/xp/ut_uuid.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F3EC1024CBE900A42CFC /* ut_uuid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ut_uuid.h; path = ../abiword/src/af/util/xp/ut_uuid.h; sourceTree = SOURCE_ROOT; };
-		81D0F3EE1024CBE900A42CFC /* ut_vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ut_vector.cpp; path = ../abiword/src/af/util/xp/ut_vector.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F3EF1024CBE900A42CFC /* ut_vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ut_vector.h; path = ../abiword/src/af/util/xp/ut_vector.h; sourceTree = SOURCE_ROOT; };
 		81D0F3F11024CBE900A42CFC /* ut_warning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ut_warning.h; path = ../abiword/src/af/util/xp/ut_warning.h; sourceTree = SOURCE_ROOT; };
 		81D0F3F21024CBE900A42CFC /* ut_wctomb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ut_wctomb.cpp; path = ../abiword/src/af/util/xp/ut_wctomb.cpp; sourceTree = SOURCE_ROOT; };
@@ -2597,17 +2613,16 @@
 		81D0F46D1024CBEC00A42CFC /* xap_CocoaApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaApp.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaApp.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F46E1024CBEC00A42CFC /* xap_CocoaApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaApp.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaApp.h; sourceTree = SOURCE_ROOT; };
 		81D0F4701024CBEC00A42CFC /* xap_CocoaAppController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaAppController.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaAppController.cpp; sourceTree = SOURCE_ROOT; };
-		81D0F4711024CBEC00A42CFC /* xap_CocoaAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaAppController.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaAppController.h; sourceTree = SOURCE_ROOT; };
 		81D0F4731024CBEC00A42CFC /* xap_CocoaAppImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaAppImpl.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaAppImpl.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F4741024CBEC00A42CFC /* xap_CocoaAppImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaAppImpl.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaAppImpl.h; sourceTree = SOURCE_ROOT; };
-		81D0F4761024CBEC00A42CFC /* xap_CocoaAssert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaAssert.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaAssert.cpp; sourceTree = SOURCE_ROOT; };
+		81D0F4761024CBEC00A42CFC /* xap_CocoaAssert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaAssert.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaAssert.cpp; sourceTree = SOURCE_ROOT; usesTabs = 0; };
 		81D0F4771024CBEC00A42CFC /* xap_CocoaAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaAssert.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaAssert.h; sourceTree = SOURCE_ROOT; };
 		81D0F4791024CBEC00A42CFC /* xap_CocoaClipboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaClipboard.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaClipboard.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F47A1024CBEC00A42CFC /* xap_CocoaClipboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaClipboard.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaClipboard.h; sourceTree = SOURCE_ROOT; };
 		81D0F47C1024CBEC00A42CFC /* xap_CocoaDialog_Utilities.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaDialog_Utilities.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaDialog_Utilities.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F47D1024CBEC00A42CFC /* xap_CocoaDialog_Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaDialog_Utilities.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaDialog_Utilities.h; sourceTree = SOURCE_ROOT; };
 		81D0F47F1024CBEC00A42CFC /* xap_CocoaDialogFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaDialogFactory.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaDialogFactory.h; sourceTree = SOURCE_ROOT; };
-		81D0F4801024CBEC00A42CFC /* xap_CocoaDlg_About.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaDlg_About.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_About.cpp; sourceTree = SOURCE_ROOT; };
+		81D0F4801024CBEC00A42CFC /* xap_CocoaDlg_About.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaDlg_About.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_About.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F4811024CBEC00A42CFC /* xap_CocoaDlg_About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaDlg_About.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_About.h; sourceTree = SOURCE_ROOT; };
 		81D0F4831024CBEC00A42CFC /* xap_CocoaDlg_About.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = xap_CocoaDlg_About.nib; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_About.nib; sourceTree = SOURCE_ROOT; };
 		81D0F4841024CBEC00A42CFC /* xap_CocoaDlg_ClipArt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaDlg_ClipArt.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_ClipArt.cpp; sourceTree = SOURCE_ROOT; };
@@ -2617,9 +2632,8 @@
 		81D0F48A1024CBEC00A42CFC /* xap_CocoaDlg_DocComparison.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = xap_CocoaDlg_DocComparison.nib; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_DocComparison.nib; sourceTree = SOURCE_ROOT; };
 		81D0F48B1024CBEC00A42CFC /* xap_CocoaDlg_Encoding.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaDlg_Encoding.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_Encoding.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F48C1024CBEC00A42CFC /* xap_CocoaDlg_Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaDlg_Encoding.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_Encoding.h; sourceTree = SOURCE_ROOT; };
-		81D0F48E1024CBEC00A42CFC /* xap_CocoaDlg_FileOpenSaveAs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaDlg_FileOpenSaveAs.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_FileOpenSaveAs.cpp; sourceTree = SOURCE_ROOT; };
-		81D0F4901024CBEC00A42CFC /* xap_CocoaDlg_FileOpenSaveAs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaDlg_FileOpenSaveAs.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_FileOpenSaveAs.h; sourceTree = SOURCE_ROOT; };
-		81D0F4921024CBEC00A42CFC /* xap_CocoaDlg_FontChooser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaDlg_FontChooser.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_FontChooser.cpp; sourceTree = SOURCE_ROOT; };
+		81D0F48E1024CBEC00A42CFC /* xap_CocoaDlg_FileOpenSaveAs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaDlg_FileOpenSaveAs.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_FileOpenSaveAs.cpp; sourceTree = SOURCE_ROOT; usesTabs = 0; };
+		81D0F4921024CBEC00A42CFC /* xap_CocoaDlg_FontChooser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaDlg_FontChooser.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_FontChooser.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F4931024CBEC00A42CFC /* xap_CocoaDlg_FontChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaDlg_FontChooser.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_FontChooser.h; sourceTree = SOURCE_ROOT; };
 		81D0F4951024CBEC00A42CFC /* xap_CocoaDlg_FontChooser.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = xap_CocoaDlg_FontChooser.nib; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_FontChooser.nib; sourceTree = SOURCE_ROOT; };
 		81D0F4961024CBEC00A42CFC /* xap_CocoaDlg_History.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaDlg_History.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_History.cpp; sourceTree = SOURCE_ROOT; };
@@ -2639,7 +2653,7 @@
 		81D0F4AB1024CBEC00A42CFC /* xap_CocoaDlg_Language.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = xap_CocoaDlg_Language.nib; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_Language.nib; sourceTree = SOURCE_ROOT; };
 		81D0F4AC1024CBEC00A42CFC /* xap_CocoaDlg_ListDocuments.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaDlg_ListDocuments.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_ListDocuments.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F4AD1024CBEC00A42CFC /* xap_CocoaDlg_ListDocuments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaDlg_ListDocuments.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_ListDocuments.h; sourceTree = SOURCE_ROOT; };
-		81D0F4AF1024CBEC00A42CFC /* xap_CocoaDlg_MessageBox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaDlg_MessageBox.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_MessageBox.cpp; sourceTree = SOURCE_ROOT; };
+		81D0F4AF1024CBEC00A42CFC /* xap_CocoaDlg_MessageBox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaDlg_MessageBox.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_MessageBox.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F4B01024CBEC00A42CFC /* xap_CocoaDlg_MessageBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaDlg_MessageBox.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_MessageBox.h; sourceTree = SOURCE_ROOT; };
 		81D0F4B21024CBEC00A42CFC /* xap_CocoaDlg_Password.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaDlg_Password.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_Password.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F4B31024CBEC00A42CFC /* xap_CocoaDlg_Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaDlg_Password.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaDlg_Password.h; sourceTree = SOURCE_ROOT; };
@@ -2660,10 +2674,9 @@
 		81D0F4C81024CBED00A42CFC /* xap_CocoaEncodingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaEncodingManager.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaEncodingManager.h; sourceTree = SOURCE_ROOT; };
 		81D0F4CA1024CBED00A42CFC /* xap_CocoaFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaFeatures.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaFeatures.h; sourceTree = SOURCE_ROOT; };
 		81D0F4CB1024CBED00A42CFC /* xap_CocoaFileOpen_Views.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = xap_CocoaFileOpen_Views.nib; path = ../abiword/src/af/xap/cocoa/xap_CocoaFileOpen_Views.nib; sourceTree = SOURCE_ROOT; };
-		81D0F4CD1024CBED00A42CFC /* xap_CocoaFrame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaFrame.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaFrame.cpp; sourceTree = SOURCE_ROOT; };
-		81D0F4CE1024CBED00A42CFC /* xap_CocoaFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaFrame.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaFrame.h; sourceTree = SOURCE_ROOT; };
+		81D0F4CD1024CBED00A42CFC /* xap_CocoaFrame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaFrame.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaFrame.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
+		81D0F4CE1024CBED00A42CFC /* xap_CocoaFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaFrame.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaFrame.h; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F4D01024CBED00A42CFC /* xap_CocoaFrameImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaFrameImpl.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaFrameImpl.cpp; sourceTree = SOURCE_ROOT; };
-		81D0F4D11024CBED00A42CFC /* xap_CocoaFrameImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaFrameImpl.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaFrameImpl.h; sourceTree = SOURCE_ROOT; };
 		81D0F4D31024CBED00A42CFC /* xap_CocoaModule.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaModule.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaModule.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F4D41024CBED00A42CFC /* xap_CocoaModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaModule.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaModule.h; sourceTree = SOURCE_ROOT; };
 		81D0F4D61024CBED00A42CFC /* xap_CocoaPlugin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaPlugin.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaPlugin.cpp; sourceTree = SOURCE_ROOT; };
@@ -2676,7 +2689,7 @@
 		81D0F4E01024CBED00A42CFC /* xap_CocoaToolbar_Icons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaToolbar_Icons.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaToolbar_Icons.h; sourceTree = SOURCE_ROOT; };
 		81D0F4E21024CBED00A42CFC /* xap_CocoaToolbarWindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaToolbarWindow.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaToolbarWindow.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F4E31024CBED00A42CFC /* xap_CocoaToolbarWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaToolbarWindow.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaToolbarWindow.h; sourceTree = SOURCE_ROOT; };
-		81D0F4E51024CBED00A42CFC /* xap_CocoaToolPalette.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaToolPalette.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaToolPalette.cpp; sourceTree = SOURCE_ROOT; };
+		81D0F4E51024CBED00A42CFC /* xap_CocoaToolPalette.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaToolPalette.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaToolPalette.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F4E61024CBED00A42CFC /* xap_CocoaToolPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_CocoaToolPalette.h; path = ../abiword/src/af/xap/cocoa/xap_CocoaToolPalette.h; sourceTree = SOURCE_ROOT; };
 		81D0F4E81024CBED00A42CFC /* xap_CocoaToolPalette.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = xap_CocoaToolPalette.nib; path = ../abiword/src/af/xap/cocoa/xap_CocoaToolPalette.nib; sourceTree = SOURCE_ROOT; };
 		81D0F4E91024CBED00A42CFC /* xap_CocoaToolProvider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xap_CocoaToolProvider.cpp; path = ../abiword/src/af/xap/cocoa/xap_CocoaToolProvider.cpp; sourceTree = SOURCE_ROOT; };
@@ -2729,7 +2742,7 @@
 		81D0F6A81024CBF300A42CFC /* xap_Dlg_Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_Dlg_Encoding.h; path = ../abiword/src/af/xap/xp/xap_Dlg_Encoding.h; sourceTree = SOURCE_ROOT; };
 		81D0F6AA1024CBF300A42CFC /* xap_Dlg_FileOpenSaveAs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xap_Dlg_FileOpenSaveAs.cpp; path = ../abiword/src/af/xap/xp/xap_Dlg_FileOpenSaveAs.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F6AB1024CBF300A42CFC /* xap_Dlg_FileOpenSaveAs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_Dlg_FileOpenSaveAs.h; path = ../abiword/src/af/xap/xp/xap_Dlg_FileOpenSaveAs.h; sourceTree = SOURCE_ROOT; };
-		81D0F6AD1024CBF300A42CFC /* xap_Dlg_FontChooser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xap_Dlg_FontChooser.cpp; path = ../abiword/src/af/xap/xp/xap_Dlg_FontChooser.cpp; sourceTree = SOURCE_ROOT; };
+		81D0F6AD1024CBF300A42CFC /* xap_Dlg_FontChooser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xap_Dlg_FontChooser.cpp; path = ../abiword/src/af/xap/xp/xap_Dlg_FontChooser.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F6AE1024CBF300A42CFC /* xap_Dlg_FontChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_Dlg_FontChooser.h; path = ../abiword/src/af/xap/xp/xap_Dlg_FontChooser.h; sourceTree = SOURCE_ROOT; };
 		81D0F6B01024CBF300A42CFC /* xap_Dlg_History.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xap_Dlg_History.cpp; path = ../abiword/src/af/xap/xp/xap_Dlg_History.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F6B11024CBF300A42CFC /* xap_Dlg_History.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_Dlg_History.h; path = ../abiword/src/af/xap/xp/xap_Dlg_History.h; sourceTree = SOURCE_ROOT; };
@@ -2768,7 +2781,7 @@
 		81D0F6E21024CBF300A42CFC /* xap_Features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_Features.h; path = ../abiword/src/af/xap/xp/xap_Features.h; sourceTree = SOURCE_ROOT; };
 		81D0F6E31024CBF300A42CFC /* xap_FontPreview.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xap_FontPreview.cpp; path = ../abiword/src/af/xap/xp/xap_FontPreview.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F6E41024CBF300A42CFC /* xap_FontPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_FontPreview.h; path = ../abiword/src/af/xap/xp/xap_FontPreview.h; sourceTree = SOURCE_ROOT; };
-		81D0F6E61024CBF300A42CFC /* xap_Frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xap_Frame.cpp; path = ../abiword/src/af/xap/xp/xap_Frame.cpp; sourceTree = SOURCE_ROOT; };
+		81D0F6E61024CBF300A42CFC /* xap_Frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xap_Frame.cpp; path = ../abiword/src/af/xap/xp/xap_Frame.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F6E71024CBF300A42CFC /* xap_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_Frame.h; path = ../abiword/src/af/xap/xp/xap_Frame.h; sourceTree = SOURCE_ROOT; };
 		81D0F6E91024CBF300A42CFC /* xap_FrameImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xap_FrameImpl.cpp; path = ../abiword/src/af/xap/xp/xap_FrameImpl.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F6EA1024CBF300A42CFC /* xap_FrameImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_FrameImpl.h; path = ../abiword/src/af/xap/xp/xap_FrameImpl.h; sourceTree = SOURCE_ROOT; };
@@ -2790,12 +2803,12 @@
 		81D0F7001024CBF400A42CFC /* xap_Prefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_Prefs.h; path = ../abiword/src/af/xap/xp/xap_Prefs.h; sourceTree = SOURCE_ROOT; };
 		81D0F7021024CBF400A42CFC /* xap_Prefs_SchemeIds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_Prefs_SchemeIds.h; path = ../abiword/src/af/xap/xp/xap_Prefs_SchemeIds.h; sourceTree = SOURCE_ROOT; };
 		81D0F7031024CBF400A42CFC /* xap_Preview.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xap_Preview.cpp; path = ../abiword/src/af/xap/xp/xap_Preview.cpp; sourceTree = SOURCE_ROOT; };
-		81D0F7041024CBF400A42CFC /* xap_Preview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_Preview.h; path = ../abiword/src/af/xap/xp/xap_Preview.h; sourceTree = SOURCE_ROOT; };
+		81D0F7041024CBF400A42CFC /* xap_Preview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_Preview.h; path = ../abiword/src/af/xap/xp/xap_Preview.h; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F7061024CBF400A42CFC /* xap_Preview_Zoom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xap_Preview_Zoom.cpp; path = ../abiword/src/af/xap/xp/xap_Preview_Zoom.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F7071024CBF400A42CFC /* xap_Preview_Zoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_Preview_Zoom.h; path = ../abiword/src/af/xap/xp/xap_Preview_Zoom.h; sourceTree = SOURCE_ROOT; };
-		81D0F7091024CBF400A42CFC /* xap_Resource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xap_Resource.cpp; path = ../abiword/src/af/xap/xp/xap_Resource.cpp; sourceTree = SOURCE_ROOT; };
+		81D0F7091024CBF400A42CFC /* xap_Resource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xap_Resource.cpp; path = ../abiword/src/af/xap/xp/xap_Resource.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F70A1024CBF400A42CFC /* xap_Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_Resource.h; path = ../abiword/src/af/xap/xp/xap_Resource.h; sourceTree = SOURCE_ROOT; };
-		81D0F70C1024CBF400A42CFC /* xap_ResourceManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xap_ResourceManager.cpp; path = ../abiword/src/af/xap/xp/xap_ResourceManager.cpp; sourceTree = SOURCE_ROOT; };
+		81D0F70C1024CBF400A42CFC /* xap_ResourceManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xap_ResourceManager.cpp; path = ../abiword/src/af/xap/xp/xap_ResourceManager.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F70D1024CBF400A42CFC /* xap_ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_ResourceManager.h; path = ../abiword/src/af/xap/xp/xap_ResourceManager.h; sourceTree = SOURCE_ROOT; };
 		81D0F70F1024CBF400A42CFC /* xap_Scrollbar_ViewListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xap_Scrollbar_ViewListener.cpp; path = ../abiword/src/af/xap/xp/xap_Scrollbar_ViewListener.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F7101024CBF400A42CFC /* xap_Scrollbar_ViewListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_Scrollbar_ViewListener.h; path = ../abiword/src/af/xap/xp/xap_Scrollbar_ViewListener.h; sourceTree = SOURCE_ROOT; };
@@ -2816,7 +2829,7 @@
 		81D0F7241024CBF400A42CFC /* xap_Widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xap_Widget.h; path = ../abiword/src/af/xap/xp/xap_Widget.h; sourceTree = SOURCE_ROOT; };
 		81D0F7251024CBF400A42CFC /* xav_Listener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xav_Listener.h; path = ../abiword/src/af/xap/xp/xav_Listener.h; sourceTree = SOURCE_ROOT; };
 		81D0F7261024CBF400A42CFC /* xav_View.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xav_View.cpp; path = ../abiword/src/af/xap/xp/xav_View.cpp; sourceTree = SOURCE_ROOT; };
-		81D0F7271024CBF400A42CFC /* xav_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xav_View.h; path = ../abiword/src/af/xap/xp/xav_View.h; sourceTree = SOURCE_ROOT; };
+		81D0F7271024CBF400A42CFC /* xav_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xav_View.h; path = ../abiword/src/af/xap/xp/xav_View.h; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F7371024CBF400A42CFC /* abi-builtin-plugins.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "abi-builtin-plugins.cpp"; path = "../abiword/src/plugins/abi-builtin-plugins.cpp"; sourceTree = SOURCE_ROOT; };
 		81D0F7381024CBF400A42CFC /* abi-builtin-plugins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "abi-builtin-plugins.h"; path = "../abiword/src/plugins/abi-builtin-plugins.h"; sourceTree = SOURCE_ROOT; };
 		81D0F7BD1024CBF700A42CFC /* fb_Alignment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fb_Alignment.cpp; path = ../abiword/src/text/fmt/xp/fb_Alignment.cpp; sourceTree = SOURCE_ROOT; };
@@ -2839,7 +2852,7 @@
 		81D0F7D61024CBF700A42CFC /* fl_BlockLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fl_BlockLayout.h; path = ../abiword/src/text/fmt/xp/fl_BlockLayout.h; sourceTree = SOURCE_ROOT; };
 		81D0F7D81024CBF700A42CFC /* fl_ContainerLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fl_ContainerLayout.cpp; path = ../abiword/src/text/fmt/xp/fl_ContainerLayout.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F7D91024CBF700A42CFC /* fl_ContainerLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fl_ContainerLayout.h; path = ../abiword/src/text/fmt/xp/fl_ContainerLayout.h; sourceTree = SOURCE_ROOT; };
-		81D0F7DB1024CBF700A42CFC /* fl_DocLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fl_DocLayout.cpp; path = ../abiword/src/text/fmt/xp/fl_DocLayout.cpp; sourceTree = SOURCE_ROOT; };
+		81D0F7DB1024CBF700A42CFC /* fl_DocLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fl_DocLayout.cpp; path = ../abiword/src/text/fmt/xp/fl_DocLayout.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F7DC1024CBF700A42CFC /* fl_DocLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fl_DocLayout.h; path = ../abiword/src/text/fmt/xp/fl_DocLayout.h; sourceTree = SOURCE_ROOT; };
 		81D0F7DE1024CBF700A42CFC /* fl_DocListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fl_DocListener.cpp; path = ../abiword/src/text/fmt/xp/fl_DocListener.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F7DF1024CBF800A42CFC /* fl_DocListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fl_DocListener.h; path = ../abiword/src/text/fmt/xp/fl_DocListener.h; sourceTree = SOURCE_ROOT; };
@@ -2906,9 +2919,9 @@
 		81D0F83C1024CBF900A42CFC /* fv_InlineImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fv_InlineImage.h; path = ../abiword/src/text/fmt/xp/fv_InlineImage.h; sourceTree = SOURCE_ROOT; };
 		81D0F83E1024CBF900A42CFC /* fv_Selection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fv_Selection.cpp; path = ../abiword/src/text/fmt/xp/fv_Selection.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F83F1024CBF900A42CFC /* fv_Selection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fv_Selection.h; path = ../abiword/src/text/fmt/xp/fv_Selection.h; sourceTree = SOURCE_ROOT; };
-		81D0F8411024CBF900A42CFC /* fv_View.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fv_View.cpp; path = ../abiword/src/text/fmt/xp/fv_View.cpp; sourceTree = SOURCE_ROOT; };
-		81D0F8421024CBF900A42CFC /* fv_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fv_View.h; path = ../abiword/src/text/fmt/xp/fv_View.h; sourceTree = SOURCE_ROOT; };
-		81D0F8441024CBF900A42CFC /* fv_View_cmd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fv_View_cmd.cpp; path = ../abiword/src/text/fmt/xp/fv_View_cmd.cpp; sourceTree = SOURCE_ROOT; };
+		81D0F8411024CBF900A42CFC /* fv_View.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fv_View.cpp; path = ../abiword/src/text/fmt/xp/fv_View.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
+		81D0F8421024CBF900A42CFC /* fv_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fv_View.h; path = ../abiword/src/text/fmt/xp/fv_View.h; sourceTree = SOURCE_ROOT; usesTabs = 1; };
+		81D0F8441024CBF900A42CFC /* fv_View_cmd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fv_View_cmd.cpp; path = ../abiword/src/text/fmt/xp/fv_View_cmd.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0F8461024CBF900A42CFC /* fv_View_protected.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fv_View_protected.cpp; path = ../abiword/src/text/fmt/xp/fv_View_protected.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F8481024CBF900A42CFC /* fv_View_TestRoutines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fv_View_TestRoutines.cpp; path = ../abiword/src/text/fmt/xp/fv_View_TestRoutines.cpp; sourceTree = SOURCE_ROOT; };
 		81D0F84A1024CBF900A42CFC /* fv_VisualDragText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fv_VisualDragText.cpp; path = ../abiword/src/text/fmt/xp/fv_VisualDragText.cpp; sourceTree = SOURCE_ROOT; };
@@ -3022,7 +3035,7 @@
 		81D0FA031024CC0300A42CFC /* ap_CocoaDialog_Break.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Break.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Break.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA041024CC0300A42CFC /* ap_CocoaDialog_Break.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Break.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Break.h; sourceTree = SOURCE_ROOT; };
 		81D0FA061024CC0300A42CFC /* ap_CocoaDialog_Break.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Break.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Break.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA081024CC0300A42CFC /* ap_CocoaDialog_Columns.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Columns.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Columns.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA081024CC0300A42CFC /* ap_CocoaDialog_Columns.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Columns.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Columns.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA091024CC0300A42CFC /* ap_CocoaDialog_Columns.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Columns.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Columns.h; sourceTree = SOURCE_ROOT; };
 		81D0FA0B1024CC0300A42CFC /* ap_CocoaDialog_Columns.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Columns.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Columns.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA0D1024CC0300A42CFC /* ap_CocoaDialog_Field.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Field.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Field.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
@@ -3034,7 +3047,7 @@
 		81D0FA151024CC0300A42CFC /* ap_CocoaDialog_FormatFrame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_FormatFrame.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatFrame.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA161024CC0300A42CFC /* ap_CocoaDialog_FormatFrame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_FormatFrame.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatFrame.h; sourceTree = SOURCE_ROOT; };
 		81D0FA181024CC0300A42CFC /* ap_CocoaDialog_FormatFrame.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_FormatFrame.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatFrame.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA191024CC0300A42CFC /* ap_CocoaDialog_FormatTable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_FormatTable.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatTable.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA191024CC0300A42CFC /* ap_CocoaDialog_FormatTable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_FormatTable.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatTable.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA1A1024CC0300A42CFC /* ap_CocoaDialog_FormatTable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_FormatTable.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatTable.h; sourceTree = SOURCE_ROOT; };
 		81D0FA1C1024CC0300A42CFC /* ap_CocoaDialog_FormatTable.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_FormatTable.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatTable.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA1E1024CC0300A42CFC /* ap_CocoaDialog_FormatTOC.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_FormatTOC.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_FormatTOC.cpp; sourceTree = SOURCE_ROOT; };
@@ -3063,7 +3076,7 @@
 		81D0FA411024CC0400A42CFC /* ap_CocoaDialog_ListRevisions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_ListRevisions.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_ListRevisions.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA421024CC0400A42CFC /* ap_CocoaDialog_ListRevisions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_ListRevisions.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_ListRevisions.h; sourceTree = SOURCE_ROOT; };
 		81D0FA441024CC0400A42CFC /* ap_CocoaDialog_ListRevisions.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_ListRevisions.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_ListRevisions.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA461024CC0400A42CFC /* ap_CocoaDialog_Lists.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Lists.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Lists.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA461024CC0400A42CFC /* ap_CocoaDialog_Lists.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Lists.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Lists.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA471024CC0400A42CFC /* ap_CocoaDialog_Lists.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Lists.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Lists.h; sourceTree = SOURCE_ROOT; };
 		81D0FA491024CC0400A42CFC /* ap_CocoaDialog_Lists.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Lists.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Lists.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA4B1024CC0400A42CFC /* ap_CocoaDialog_MailMerge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_MailMerge.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_MailMerge.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
@@ -3084,27 +3097,26 @@
 		81D0FA5F1024CC0400A42CFC /* ap_CocoaDialog_Options.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Options.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Options.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA601024CC0400A42CFC /* ap_CocoaDialog_Options.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Options.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Options.h; sourceTree = SOURCE_ROOT; };
 		81D0FA621024CC0400A42CFC /* ap_CocoaDialog_Options.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Options.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Options.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA641024CC0400A42CFC /* ap_CocoaDialog_PageNumbers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_PageNumbers.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_PageNumbers.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA641024CC0400A42CFC /* ap_CocoaDialog_PageNumbers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_PageNumbers.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_PageNumbers.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA651024CC0400A42CFC /* ap_CocoaDialog_PageNumbers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_PageNumbers.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_PageNumbers.h; sourceTree = SOURCE_ROOT; };
 		81D0FA671024CC0400A42CFC /* ap_CocoaDialog_PageNumbers.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_PageNumbers.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_PageNumbers.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA681024CC0400A42CFC /* ap_CocoaDialog_PageSetup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_PageSetup.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_PageSetup.cpp; sourceTree = SOURCE_ROOT; };
-		81D0FA691024CC0400A42CFC /* ap_CocoaDialog_PageSetup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_PageSetup.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_PageSetup.h; sourceTree = SOURCE_ROOT; };
+		81D0FA681024CC0400A42CFC /* ap_CocoaDialog_PageSetup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_PageSetup.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_PageSetup.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA6B1024CC0400A42CFC /* ap_CocoaDialog_PageSetup.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_PageSetup.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_PageSetup.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA6C1024CC0400A42CFC /* ap_CocoaDialog_Paragraph.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Paragraph.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Paragraph.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA6C1024CC0400A42CFC /* ap_CocoaDialog_Paragraph.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Paragraph.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Paragraph.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA6D1024CC0400A42CFC /* ap_CocoaDialog_Paragraph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Paragraph.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Paragraph.h; sourceTree = SOURCE_ROOT; };
 		81D0FA6F1024CC0400A42CFC /* ap_CocoaDialog_Paragraph.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Paragraph.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Paragraph.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA701024CC0400A42CFC /* ap_CocoaDialog_Replace.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Replace.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Replace.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FA711024CC0400A42CFC /* ap_CocoaDialog_Replace.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Replace.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Replace.h; sourceTree = SOURCE_ROOT; };
 		81D0FA731024CC0400A42CFC /* ap_CocoaDialog_Replace.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Replace.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Replace.nib; sourceTree = SOURCE_ROOT; };
-		81D0FA741024CC0500A42CFC /* ap_CocoaDialog_Spell.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Spell.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Spell.cpp; sourceTree = SOURCE_ROOT; };
-		81D0FA751024CC0500A42CFC /* ap_CocoaDialog_Spell.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Spell.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Spell.h; sourceTree = SOURCE_ROOT; };
+		81D0FA741024CC0500A42CFC /* ap_CocoaDialog_Spell.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Spell.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Spell.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
+		81D0FA751024CC0500A42CFC /* ap_CocoaDialog_Spell.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Spell.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Spell.h; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA771024CC0500A42CFC /* ap_CocoaDialog_Spell.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Spell.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Spell.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA791024CC0500A42CFC /* ap_CocoaDialog_SplitCells.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_SplitCells.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_SplitCells.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FA7A1024CC0500A42CFC /* ap_CocoaDialog_SplitCells.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_SplitCells.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_SplitCells.h; sourceTree = SOURCE_ROOT; };
 		81D0FA7C1024CC0500A42CFC /* ap_CocoaDialog_SplitCells.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_SplitCells.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_SplitCells.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA7D1024CC0500A42CFC /* ap_CocoaDialog_Stub.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Stub.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Stub.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FA7E1024CC0500A42CFC /* ap_CocoaDialog_Stub.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Stub.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Stub.h; sourceTree = SOURCE_ROOT; };
-		81D0FA7F1024CC0500A42CFC /* ap_CocoaDialog_Styles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Styles.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Styles.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA7F1024CC0500A42CFC /* ap_CocoaDialog_Styles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaDialog_Styles.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Styles.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FA801024CC0500A42CFC /* ap_CocoaDialog_Styles.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaDialog_Styles.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Styles.h; sourceTree = SOURCE_ROOT; };
 		81D0FA821024CC0500A42CFC /* ap_CocoaDialog_Styles.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_Styles.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_Styles.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA831024CC0500A42CFC /* ap_CocoaDialog_StylesModify.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaDialog_StylesModify.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaDialog_StylesModify.nib; sourceTree = SOURCE_ROOT; };
@@ -3125,8 +3137,7 @@
 		81D0FA981024CC0500A42CFC /* ap_CocoaFrame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaFrame.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaFrame.h; sourceTree = SOURCE_ROOT; };
 		81D0FA9A1024CC0500A42CFC /* ap_CocoaFrame.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ap_CocoaFrame.nib; path = ../abiword/src/wp/ap/cocoa/ap_CocoaFrame.nib; sourceTree = SOURCE_ROOT; };
 		81D0FA9B1024CC0500A42CFC /* ap_CocoaFrameImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaFrameImpl.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaFrameImpl.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
-		81D0FA9C1024CC0500A42CFC /* ap_CocoaFrameImpl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaFrameImpl.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaFrameImpl.h; sourceTree = SOURCE_ROOT; };
-		81D0FA9F1024CC0500A42CFC /* ap_CocoaLeftRuler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaLeftRuler.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaLeftRuler.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FA9F1024CC0500A42CFC /* ap_CocoaLeftRuler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaLeftRuler.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaLeftRuler.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FAA01024CC0500A42CFC /* ap_CocoaLeftRuler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaLeftRuler.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaLeftRuler.h; sourceTree = SOURCE_ROOT; };
 		81D0FAA21024CC0500A42CFC /* ap_CocoaPlugin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaPlugin.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaPlugin.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FAA31024CC0500A42CFC /* ap_CocoaPlugin.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaPlugin.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaPlugin.h; sourceTree = SOURCE_ROOT; };
@@ -3145,7 +3156,7 @@
 		81D0FAB61024CC0500A42CFC /* ap_CocoaToolbar_StyleCombo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaToolbar_StyleCombo.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaToolbar_StyleCombo.h; sourceTree = SOURCE_ROOT; };
 		81D0FAB81024CC0600A42CFC /* ap_CocoaToolbar_ZoomCombo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaToolbar_ZoomCombo.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaToolbar_ZoomCombo.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FAB91024CC0600A42CFC /* ap_CocoaToolbar_ZoomCombo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaToolbar_ZoomCombo.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaToolbar_ZoomCombo.h; sourceTree = SOURCE_ROOT; };
-		81D0FABB1024CC0600A42CFC /* ap_CocoaTopRuler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaTopRuler.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaTopRuler.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FABB1024CC0600A42CFC /* ap_CocoaTopRuler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaTopRuler.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaTopRuler.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FABC1024CC0600A42CFC /* ap_CocoaTopRuler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaTopRuler.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaTopRuler.h; sourceTree = SOURCE_ROOT; };
 		81D0FABE1024CC0600A42CFC /* ap_CocoaViewListener.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ap_CocoaViewListener.cpp; path = ../abiword/src/wp/ap/cocoa/ap_CocoaViewListener.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FABF1024CC0600A42CFC /* ap_CocoaViewListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ap_CocoaViewListener.h; path = ../abiword/src/wp/ap/cocoa/ap_CocoaViewListener.h; sourceTree = SOURCE_ROOT; };
@@ -3164,7 +3175,7 @@
 		81D0FDA61024CC1400A42CFC /* ap_Dialog_Break.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ap_Dialog_Break.cpp; path = ../abiword/src/wp/ap/xp/ap_Dialog_Break.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FDA71024CC1400A42CFC /* ap_Dialog_Break.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ap_Dialog_Break.h; path = ../abiword/src/wp/ap/xp/ap_Dialog_Break.h; sourceTree = SOURCE_ROOT; };
 		81D0FDA91024CC1400A42CFC /* ap_Dialog_Columns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ap_Dialog_Columns.cpp; path = ../abiword/src/wp/ap/xp/ap_Dialog_Columns.cpp; sourceTree = SOURCE_ROOT; };
-		81D0FDAA1024CC1400A42CFC /* ap_Dialog_Columns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ap_Dialog_Columns.h; path = ../abiword/src/wp/ap/xp/ap_Dialog_Columns.h; sourceTree = SOURCE_ROOT; };
+		81D0FDAA1024CC1400A42CFC /* ap_Dialog_Columns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ap_Dialog_Columns.h; path = ../abiword/src/wp/ap/xp/ap_Dialog_Columns.h; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FDAC1024CC1400A42CFC /* ap_Dialog_Field.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ap_Dialog_Field.cpp; path = ../abiword/src/wp/ap/xp/ap_Dialog_Field.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FDAD1024CC1400A42CFC /* ap_Dialog_Field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ap_Dialog_Field.h; path = ../abiword/src/wp/ap/xp/ap_Dialog_Field.h; sourceTree = SOURCE_ROOT; };
 		81D0FDAF1024CC1400A42CFC /* ap_Dialog_FormatFootnotes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ap_Dialog_FormatFootnotes.cpp; path = ../abiword/src/wp/ap/xp/ap_Dialog_FormatFootnotes.cpp; sourceTree = SOURCE_ROOT; };
@@ -3307,7 +3318,7 @@
 		81D0FE751024CC1900A42CFC /* ap_Prefs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ap_Prefs.cpp; path = ../abiword/src/wp/ap/xp/ap_Prefs.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FE761024CC1900A42CFC /* ap_Prefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ap_Prefs.h; path = ../abiword/src/wp/ap/xp/ap_Prefs.h; sourceTree = SOURCE_ROOT; };
 		81D0FE781024CC1900A42CFC /* ap_Prefs_SchemeIds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ap_Prefs_SchemeIds.h; path = ../abiword/src/wp/ap/xp/ap_Prefs_SchemeIds.h; sourceTree = SOURCE_ROOT; };
-		81D0FE791024CC1900A42CFC /* ap_Preview_Abi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ap_Preview_Abi.cpp; path = ../abiword/src/wp/ap/xp/ap_Preview_Abi.cpp; sourceTree = SOURCE_ROOT; };
+		81D0FE791024CC1900A42CFC /* ap_Preview_Abi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ap_Preview_Abi.cpp; path = ../abiword/src/wp/ap/xp/ap_Preview_Abi.cpp; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 		81D0FE7A1024CC1900A42CFC /* ap_Preview_Abi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ap_Preview_Abi.h; path = ../abiword/src/wp/ap/xp/ap_Preview_Abi.h; sourceTree = SOURCE_ROOT; };
 		81D0FE7C1024CC1900A42CFC /* ap_Preview_Annotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ap_Preview_Annotation.cpp; path = ../abiword/src/wp/ap/xp/ap_Preview_Annotation.cpp; sourceTree = SOURCE_ROOT; };
 		81D0FE7D1024CC1900A42CFC /* ap_Preview_Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ap_Preview_Annotation.h; path = ../abiword/src/wp/ap/xp/ap_Preview_Annotation.h; sourceTree = SOURCE_ROOT; };
@@ -3547,7 +3558,7 @@
 		81E1E17214A974080044BB6A /* ap_Dialog_RDFQuery.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ap_Dialog_RDFQuery.cpp; sourceTree = "<group>"; };
 		81E1E17314A974080044BB6A /* ap_Dialog_RDFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ap_Dialog_RDFQuery.h; sourceTree = "<group>"; };
 		81E1E19414A9745A0044BB6A /* fv_ViewDoubleBuffering.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fv_ViewDoubleBuffering.cpp; sourceTree = "<group>"; };
-		81E1E19514A9745A0044BB6A /* fv_ViewDoubleBuffering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fv_ViewDoubleBuffering.h; sourceTree = "<group>"; };
+		81E1E19514A9745A0044BB6A /* fv_ViewDoubleBuffering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fv_ViewDoubleBuffering.h; sourceTree = "<group>"; usesTabs = 1; };
 		81E1E1A214A9748D0044BB6A /* fp_RDFAnchorRun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fp_RDFAnchorRun.cpp; sourceTree = "<group>"; };
 		81E1E1B614A9753D0044BB6A /* ODe_RDFWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ODe_RDFWriter.cpp; sourceTree = "<group>"; };
 		81E1E1B714A9753D0044BB6A /* ODe_RDFWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODe_RDFWriter.h; sourceTree = "<group>"; };
@@ -3677,11 +3688,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				812D3BF5270BD95E00BBEB32 /* libenchant-2.2.dylib in Frameworks */,
 				81CD341110E34A2D00CDEDD8 /* libwv.dylib in Frameworks */,
 				81CD341210E34A2D00CDEDD8 /* libxml2.2.dylib in Frameworks */,
 				81CD341310E34A2D00CDEDD8 /* libz.1.dylib in Frameworks */,
-				81CD341410E34A2D00CDEDD8 /* libcairo.2.dylib in Frameworks */,
-				81CD341510E34A2D00CDEDD8 /* libenchant.1.dylib in Frameworks */,
 				81CD341610E34A2D00CDEDD8 /* libfribidi.0.dylib in Frameworks */,
 				81CD341710E34A2D00CDEDD8 /* libglib-2.0.0.dylib in Frameworks */,
 				81CD341810E34A2D00CDEDD8 /* libgmodule-2.0.0.dylib in Frameworks */,
@@ -3690,8 +3700,6 @@
 				81CD341A10E34A2D00CDEDD8 /* libgsf-1.114.dylib in Frameworks */,
 				81CD341B10E34A2D00CDEDD8 /* libgthread-2.0.0.dylib in Frameworks */,
 				81CD341C10E34A2D00CDEDD8 /* libjpeg.dylib in Frameworks */,
-				81CD341D10E34A2D00CDEDD8 /* libpango-1.0.dylib in Frameworks */,
-				81CD341E10E34A2D00CDEDD8 /* libpangocairo-1.0.0.dylib in Frameworks */,
 				8105D5B01CDF7C5E00C920CB /* libgio-2.0.0.dylib in Frameworks */,
 				81CD341F10E34A2D00CDEDD8 /* libpng16.dylib in Frameworks */,
 				81CD342510E34A5200CDEDD8 /* Cocoa.framework in Frameworks */,
@@ -3728,7 +3736,7 @@
 				81D0F11C1024CBC000A42CFC /* config.h */,
 			);
 			name = Source;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
@@ -3770,6 +3778,7 @@
 		29B97314FDCFA39411CA2CEA /* abixcode */ = {
 			isa = PBXGroup;
 			children = (
+				81236B74270BE0420050FA22 /* AbiWord.entitlements */,
 				080E96DDFE201D6D7F000001 /* Source */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -3852,8 +3861,7 @@
 		8105D5A51CDF73E800C920CB /* brew */ = {
 			isa = PBXGroup;
 			children = (
-				81D00F161024F79700A42CFC /* libcairo.2.dylib */,
-				81D00F171024F79700A42CFC /* libenchant.1.dylib */,
+				812D3BF4270BD95E00BBEB32 /* libenchant-2.2.dylib */,
 				81D00F181024F79700A42CFC /* libfribidi.0.dylib */,
 				81D00F191024F79700A42CFC /* libglib-2.0.0.dylib */,
 				81D00F1A1024F79700A42CFC /* libgmodule-2.0.0.dylib */,
@@ -3862,8 +3870,6 @@
 				81D00F1C1024F79700A42CFC /* libgsf-1.114.dylib */,
 				81D00F1D1024F79700A42CFC /* libgthread-2.0.0.dylib */,
 				81D00F1E1024F79700A42CFC /* libjpeg.dylib */,
-				81D00F1F1024F79700A42CFC /* libpango-1.0.dylib */,
-				81D00F201024F79700A42CFC /* libpangocairo-1.0.0.dylib */,
 				81D00F211024F79700A42CFC /* libpng16.dylib */,
 				81E01DBB1CDF906F00F629FA /* librevenge-0.0.0.dylib */,
 				81CD346510E34C2C00CDEDD8 /* libwmf-0.2.7.1.0.dylib */,
@@ -5037,10 +5043,13 @@
 		81D0F2021024CBE400A42CFC /* cocoa */ = {
 			isa = PBXGroup;
 			children = (
-				81D0F20D1024CBE400A42CFC /* gr_CocoaCairoGraphics.cpp */,
-				81D0F20E1024CBE400A42CFC /* gr_CocoaCairoGraphics.h */,
+				81236C0D270C898B0050FA22 /* gr_CocoaFont.cpp */,
+				81236C0E270C898B0050FA22 /* gr_CocoaFont.h */,
+				81236BB1270C0A890050FA22 /* gr_CocoaGraphics.cpp */,
+				81236BB2270C0A890050FA22 /* gr_CocoaGraphics.h */,
 				81D0F2111024CBE400A42CFC /* gr_CocoaImage.cpp */,
 				81D0F2121024CBE400A42CFC /* gr_CocoaImage.h */,
+				814AC4D6271E67F20055F252 /* gr_CoreGraphicsUtils.h */,
 			);
 			name = cocoa;
 			path = ../abiword/src/af/gr/cocoa;
@@ -5049,10 +5058,6 @@
 		81D0F2481024CBE500A42CFC /* xp */ = {
 			isa = PBXGroup;
 			children = (
-				81D0F2651024CBE500A42CFC /* gr_CairoGraphics.cpp */,
-				81D0F2661024CBE500A42CFC /* gr_CairoGraphics.h */,
-				81337A3D102DDF830041F19C /* gr_CairoNullGraphics.cpp */,
-				81337A3E102DDF830041F19C /* gr_CairoNullGraphics.h */,
 				81D0F2681024CBE500A42CFC /* gr_Caret.cpp */,
 				81D0F2691024CBE500A42CFC /* gr_Caret.h */,
 				81D0F26B1024CBE500A42CFC /* gr_CharWidths.cpp */,
@@ -5117,6 +5122,10 @@
 		81D0F2F71024CBE600A42CFC /* xp */ = {
 			isa = PBXGroup;
 			children = (
+				812D3B82270BD53400BBEB32 /* ut_compiler.h */,
+				812D3B83270BD53400BBEB32 /* ut_conversion.h */,
+				812D3B81270BD53400BBEB32 /* ut_export.h */,
+				812D3B84270BD53400BBEB32 /* ut_option.h */,
 				81D0F36D1024CBE800A42CFC /* ut_AdobeEncoding.cpp */,
 				81D0F36E1024CBE800A42CFC /* ut_AdobeEncoding.h */,
 				81D0F3701024CBE800A42CFC /* ut_assert.h */,
@@ -5165,6 +5174,7 @@
 				81D0F3AE1024CBE900A42CFC /* ut_misc.h */,
 				81D0F3B01024CBE900A42CFC /* ut_mutex.cpp */,
 				81D0F3B11024CBE900A42CFC /* ut_mutex.h */,
+				814AC4E42730C0560055F252 /* ut_null.h */,
 				81D0F3B31024CBE900A42CFC /* ut_OverstrikingChars.cpp */,
 				81D0F3B41024CBE900A42CFC /* ut_OverstrikingChars.h */,
 				81D0F3B61024CBE900A42CFC /* ut_path.cpp */,
@@ -5183,6 +5193,7 @@
 				81D0F3CB1024CBE900A42CFC /* ut_std_map.h */,
 				81D0F3CC1024CBE900A42CFC /* ut_std_string.cpp */,
 				81D0F3CD1024CBE900A42CFC /* ut_std_string.h */,
+				812D3BB5270BD58100BBEB32 /* ut_std_vector.h */,
 				81D0F3CF1024CBE900A42CFC /* ut_string.cpp */,
 				81D0F3D01024CBE900A42CFC /* ut_string.h */,
 				81D0F3D21024CBE900A42CFC /* ut_string_class.cpp */,
@@ -5205,7 +5216,6 @@
 				81D0F3E91024CBE900A42CFC /* ut_units.h */,
 				81D0F3EB1024CBE900A42CFC /* ut_uuid.cpp */,
 				81D0F3EC1024CBE900A42CFC /* ut_uuid.h */,
-				81D0F3EE1024CBE900A42CFC /* ut_vector.cpp */,
 				81D0F3EF1024CBE900A42CFC /* ut_vector.h */,
 				81D0F3F11024CBE900A42CFC /* ut_warning.h */,
 				81D0F3F21024CBE900A42CFC /* ut_wctomb.cpp */,
@@ -5243,7 +5253,7 @@
 				81D0F46D1024CBEC00A42CFC /* xap_CocoaApp.cpp */,
 				81D0F46E1024CBEC00A42CFC /* xap_CocoaApp.h */,
 				81D0F4701024CBEC00A42CFC /* xap_CocoaAppController.cpp */,
-				81D0F4711024CBEC00A42CFC /* xap_CocoaAppController.h */,
+				81BE906B270E43B900B3205E /* xap_CocoaAppController.h */,
 				81D0F4731024CBEC00A42CFC /* xap_CocoaAppImpl.cpp */,
 				81D0F4741024CBEC00A42CFC /* xap_CocoaAppImpl.h */,
 				81D0F4761024CBEC00A42CFC /* xap_CocoaAssert.cpp */,
@@ -5262,7 +5272,7 @@
 				81D0F48B1024CBEC00A42CFC /* xap_CocoaDlg_Encoding.cpp */,
 				81D0F48C1024CBEC00A42CFC /* xap_CocoaDlg_Encoding.h */,
 				81D0F48E1024CBEC00A42CFC /* xap_CocoaDlg_FileOpenSaveAs.cpp */,
-				81D0F4901024CBEC00A42CFC /* xap_CocoaDlg_FileOpenSaveAs.h */,
+				81BE90EC270E79B300B3205E /* xap_CocoaDlg_FileOpenSaveAs.h */,
 				81D0F4921024CBEC00A42CFC /* xap_CocoaDlg_FontChooser.cpp */,
 				81D0F4931024CBEC00A42CFC /* xap_CocoaDlg_FontChooser.h */,
 				81D0F4961024CBEC00A42CFC /* xap_CocoaDlg_History.cpp */,
@@ -5297,7 +5307,7 @@
 				81D0F4CD1024CBED00A42CFC /* xap_CocoaFrame.cpp */,
 				81D0F4CE1024CBED00A42CFC /* xap_CocoaFrame.h */,
 				81D0F4D01024CBED00A42CFC /* xap_CocoaFrameImpl.cpp */,
-				81D0F4D11024CBED00A42CFC /* xap_CocoaFrameImpl.h */,
+				81BE90AD270E445D00B3205E /* xap_CocoaFrameImpl.h */,
 				81D0F4D31024CBED00A42CFC /* xap_CocoaModule.cpp */,
 				81D0F4D41024CBED00A42CFC /* xap_CocoaModule.h */,
 				81D0F4D61024CBED00A42CFC /* xap_CocoaPlugin.cpp */,
@@ -5327,7 +5337,6 @@
 				81D0F4FB1024CBED00A42CFC /* xap_PrintingDelegate.h */,
 				81D0F4FD1024CBED00A42CFC /* xap_PrintingNSView.cpp */,
 				81D0F4FE1024CBED00A42CFC /* xap_PrintingNSView.h */,
-				8115D81710D8C6A9009D9DEA /* xap_CocoaCompat.h */,
 			);
 			name = cocoa;
 			path = ../abiword/src/af/xap/cocoa;
@@ -5403,6 +5412,7 @@
 				81D0F6D61024CBF300A42CFC /* xap_Dlg_Zoom.h */,
 				81D0F6D81024CBF300A42CFC /* xap_Draw_Symbol.cpp */,
 				81D0F6D91024CBF300A42CFC /* xap_Draw_Symbol.h */,
+				815EB8FB27114299000BAD0B /* xap_Drawable.h */,
 				81D0F6DB1024CBF300A42CFC /* xap_EditMethods.h */,
 				81D0F6DC1024CBF300A42CFC /* xap_EncodingManager.cpp */,
 				81D0F6DD1024CBF300A42CFC /* xap_EncodingManager.h */,
@@ -5497,6 +5507,11 @@
 		81D0F7531024CBF500A42CFC /* xp */ = {
 			isa = PBXGroup;
 			children = (
+				812D3C0D270BD9A200BBEB32 /* fl_PartOfBlock.cpp */,
+				812D3C0C270BD9A200BBEB32 /* fl_PartOfBlock.h */,
+				812D3BE4270BD8BE00BBEB32 /* fp_AnnotationRun.h */,
+				812D3BE5270BD8BE00BBEB32 /* fp_FmtMarkRun.h */,
+				812D3BE3270BD8BE00BBEB32 /* fp_RDFAnchorRun.h */,
 				81D0F7BD1024CBF700A42CFC /* fb_Alignment.cpp */,
 				81D0F7BE1024CBF700A42CFC /* fb_Alignment.h */,
 				81D0F7C01024CBF700A42CFC /* fb_ColumnBreaker.cpp */,
@@ -5805,7 +5820,7 @@
 				81D0FA641024CC0400A42CFC /* ap_CocoaDialog_PageNumbers.cpp */,
 				81D0FA651024CC0400A42CFC /* ap_CocoaDialog_PageNumbers.h */,
 				81D0FA681024CC0400A42CFC /* ap_CocoaDialog_PageSetup.cpp */,
-				81D0FA691024CC0400A42CFC /* ap_CocoaDialog_PageSetup.h */,
+				81BE9050270E3FF900B3205E /* ap_CocoaDialog_PageSetup.h */,
 				81D0FA6C1024CC0400A42CFC /* ap_CocoaDialog_Paragraph.cpp */,
 				81D0FA6D1024CC0400A42CFC /* ap_CocoaDialog_Paragraph.h */,
 				81D0FA701024CC0400A42CFC /* ap_CocoaDialog_Replace.cpp */,
@@ -5830,7 +5845,7 @@
 				81D0FA971024CC0500A42CFC /* ap_CocoaFrame.cpp */,
 				81D0FA981024CC0500A42CFC /* ap_CocoaFrame.h */,
 				81D0FA9B1024CC0500A42CFC /* ap_CocoaFrameImpl.cpp */,
-				81D0FA9C1024CC0500A42CFC /* ap_CocoaFrameImpl.h */,
+				81BE9086270E441B00B3205E /* ap_CocoaFrameImpl.h */,
 				81D0FA9F1024CC0500A42CFC /* ap_CocoaLeftRuler.cpp */,
 				81D0FAA01024CC0500A42CFC /* ap_CocoaLeftRuler.h */,
 				81D0FAA21024CC0500A42CFC /* ap_CocoaPlugin.cpp */,
@@ -6303,6 +6318,7 @@
 				8115DC0C10DB3563009D9DEA /* ODe_Styles.h in Headers */,
 				8115DC0E10DB3563009D9DEA /* ODe_Table_Listener.h in Headers */,
 				8115DC1010DB3563009D9DEA /* ODe_Text_Listener.h in Headers */,
+				814AC50B27323CDB0055F252 /* ut_null.h in Headers */,
 				8115DC1210DB3563009D9DEA /* ODi_Abi_Data.h in Headers */,
 				8115DC1410DB3563009D9DEA /* ODi_ContentStream_ListenerState.h in Headers */,
 				8115DC1610DB3563009D9DEA /* ODi_ElementStack.h in Headers */,
@@ -6475,6 +6491,7 @@
 				8175A49010E9D425003DE86D /* IOServerHandler.h in Headers */,
 				8175A49210E9D425003DE86D /* Session.h in Headers */,
 				8175A49410E9D425003DE86D /* TCPAccountHandler.h in Headers */,
+				81BE90EE270E79B400B3205E /* xap_CocoaDlg_FileOpenSaveAs.h in Headers */,
 				8175A49510E9D425003DE86D /* TCPBuddy.h in Headers */,
 				8175A49F10E9D425003DE86D /* XMPPUnixAccountHandler.h in Headers */,
 				8175A4A210E9D425003DE86D /* XMPPAccountHandler.h in Headers */,
@@ -6542,7 +6559,6 @@
 				8175A52110E9D549003DE86D /* ap_CocoaDialog_New.h in Headers */,
 				8175A52210E9D549003DE86D /* ap_CocoaDialog_Options.h in Headers */,
 				8175A52310E9D549003DE86D /* ap_CocoaDialog_PageNumbers.h in Headers */,
-				8175A52410E9D549003DE86D /* ap_CocoaDialog_PageSetup.h in Headers */,
 				8175A52510E9D549003DE86D /* ap_CocoaDialog_Paragraph.h in Headers */,
 				8175A52610E9D549003DE86D /* ap_CocoaDialog_Replace.h in Headers */,
 				8175A52710E9D549003DE86D /* ap_CocoaDialog_Spell.h in Headers */,
@@ -6554,7 +6570,6 @@
 				8175A52D10E9D549003DE86D /* ap_CocoaDialog_ToggleCase.h in Headers */,
 				8175A52E10E9D549003DE86D /* ap_CocoaDialog_WordCount.h in Headers */,
 				8175A52F10E9D549003DE86D /* ap_CocoaFrame.h in Headers */,
-				8175A53010E9D549003DE86D /* ap_CocoaFrameImpl.h in Headers */,
 				8175A53110E9D549003DE86D /* ap_CocoaLeftRuler.h in Headers */,
 				8175A53210E9D549003DE86D /* ap_CocoaPlugin.h in Headers */,
 				8175A53310E9D549003DE86D /* ap_CocoaPrefs.h in Headers */,
@@ -6593,6 +6608,7 @@
 				8175A55410E9D549003DE86D /* ap_Dialog_MergeCells.h in Headers */,
 				8175A55510E9D549003DE86D /* ap_Dialog_MetaData.h in Headers */,
 				8175A55610E9D549003DE86D /* ap_Dialog_New.h in Headers */,
+				81BE906D270E43B900B3205E /* xap_CocoaAppController.h in Headers */,
 				8175A55710E9D549003DE86D /* ap_Dialog_Options.h in Headers */,
 				8175A55810E9D549003DE86D /* ap_Dialog_PageNumbers.h in Headers */,
 				8175A55910E9D549003DE86D /* ap_Dialog_PageSetup.h in Headers */,
@@ -6633,6 +6649,7 @@
 				8175A57C10E9D549003DE86D /* ap_LB_viEdit_d.h in Headers */,
 				8175A57D10E9D549003DE86D /* ap_LB_viEdit_r.h in Headers */,
 				8175A57E10E9D549003DE86D /* ap_LB_viEdit_y.h in Headers */,
+				81BE9088270E441B00B3205E /* ap_CocoaFrameImpl.h in Headers */,
 				8175A57F10E9D549003DE86D /* ap_LB_viInput.h in Headers */,
 				8175A58010E9D549003DE86D /* ap_LeftRuler.h in Headers */,
 				8175A58110E9D549003DE86D /* ap_LoadBindings.h in Headers */,
@@ -6744,15 +6761,11 @@
 				8175A5EB10E9D549003DE86D /* fv_FrameEdit.h in Headers */,
 				8175A5EC10E9D549003DE86D /* fv_InlineImage.h in Headers */,
 				8175A5ED10E9D549003DE86D /* fv_Selection.h in Headers */,
-				8175A5EE10E9D549003DE86D /* fv_View.h in Headers */,
 				8175A5EF10E9D549003DE86D /* fv_VisualDragText.h in Headers */,
-				8175A5F010E9D549003DE86D /* gr_CairoGraphics.h in Headers */,
-				8175A5F110E9D549003DE86D /* gr_CairoNullGraphics.h in Headers */,
 				8175A5F210E9D549003DE86D /* gr_Caret.h in Headers */,
 				8175A5F310E9D549003DE86D /* gr_CharWidths.h in Headers */,
 				8175A5F410E9D549003DE86D /* gr_CharWidthsCache.h in Headers */,
-				8175A5F510E9D549003DE86D /* gr_CocoaCairoGraphics.h in Headers */,
-				8175A5F610E9D549003DE86D /* gr_CocoaImage.h in Headers */,
+				815EB8B22710A020000BAD0B /* fv_View.h in Headers */,
 				8175A5F710E9D549003DE86D /* gr_Control.h in Headers */,
 				8175A5F810E9D549003DE86D /* gr_DrawArgs.h in Headers */,
 				8175A5F910E9D549003DE86D /* gr_EmbedManager.h in Headers */,
@@ -6907,18 +6920,15 @@
 				8175A68F10E9D549003DE86D /* xap_Cocoa_TB_CFactory.h in Headers */,
 				8175A69010E9D549003DE86D /* xap_CocoaAbiConversions.h in Headers */,
 				8175A69110E9D549003DE86D /* xap_CocoaApp.h in Headers */,
-				8175A69210E9D549003DE86D /* xap_CocoaAppController.h in Headers */,
 				8175A69310E9D549003DE86D /* xap_CocoaAppImpl.h in Headers */,
 				8175A69410E9D549003DE86D /* xap_CocoaAssert.h in Headers */,
 				8175A69510E9D549003DE86D /* xap_CocoaClipboard.h in Headers */,
-				8175A69610E9D549003DE86D /* xap_CocoaCompat.h in Headers */,
 				8175A69710E9D549003DE86D /* xap_CocoaDialog_Utilities.h in Headers */,
 				8175A69810E9D549003DE86D /* xap_CocoaDialogFactory.h in Headers */,
 				8175A69910E9D549003DE86D /* xap_CocoaDlg_About.h in Headers */,
 				8175A69A10E9D549003DE86D /* xap_CocoaDlg_ClipArt.h in Headers */,
 				8175A69B10E9D549003DE86D /* xap_CocoaDlg_DocComparison.h in Headers */,
 				8175A69C10E9D549003DE86D /* xap_CocoaDlg_Encoding.h in Headers */,
-				8175A69D10E9D549003DE86D /* xap_CocoaDlg_FileOpenSaveAs.h in Headers */,
 				8175A69E10E9D549003DE86D /* xap_CocoaDlg_FontChooser.h in Headers */,
 				8175A69F10E9D549003DE86D /* xap_CocoaDlg_History.h in Headers */,
 				8175A6A010E9D549003DE86D /* xap_CocoaDlg_HTMLOptions.h in Headers */,
@@ -6936,7 +6946,6 @@
 				8175A6AC10E9D549003DE86D /* xap_CocoaEncodingManager.h in Headers */,
 				8175A6AD10E9D549003DE86D /* xap_CocoaFeatures.h in Headers */,
 				8175A6AE10E9D549003DE86D /* xap_CocoaFrame.h in Headers */,
-				8175A6AF10E9D549003DE86D /* xap_CocoaFrameImpl.h in Headers */,
 				8175A6B010E9D549003DE86D /* xap_CocoaModule.h in Headers */,
 				8175A6B110E9D549003DE86D /* xap_CocoaPlugin.h in Headers */,
 				8175A6B210E9D549003DE86D /* xap_CocoaTextView.h in Headers */,
@@ -6963,6 +6972,7 @@
 				8175A6C710E9D549003DE86D /* xap_Dlg_Image.h in Headers */,
 				8175A6C810E9D549003DE86D /* xap_Dlg_Insert_Symbol.h in Headers */,
 				8175A6C910E9D549003DE86D /* xap_Dlg_Language.h in Headers */,
+				81BE90AF270E445D00B3205E /* xap_CocoaFrameImpl.h in Headers */,
 				8175A6CA10E9D549003DE86D /* xap_Dlg_ListDocuments.h in Headers */,
 				8175A6CB10E9D549003DE86D /* xap_Dlg_MessageBox.h in Headers */,
 				8175A6CC10E9D549003DE86D /* xap_Dlg_Password.h in Headers */,
@@ -6976,6 +6986,7 @@
 				8175A6D410E9D549003DE86D /* xap_EditMethods.h in Headers */,
 				8175A6D510E9D549003DE86D /* xap_EncodingManager.h in Headers */,
 				8175A6D610E9D549003DE86D /* xap_FakeClipboard.h in Headers */,
+				81BE9052270E3FFA00B3205E /* ap_CocoaDialog_PageSetup.h in Headers */,
 				8175A6D710E9D549003DE86D /* xap_Features.h in Headers */,
 				8175A6D810E9D549003DE86D /* xap_FontPreview.h in Headers */,
 				8175A6D910E9D549003DE86D /* xap_Frame.h in Headers */,
@@ -7044,27 +7055,48 @@
 				812AE56A11B5EEEC00113C91 /* ie_exp_DocRangeListener.h in Headers */,
 				81E1E12A14A971D00044BB6A /* pd_DocumentRDF.h in Headers */,
 				81E1E12C14A971D00044BB6A /* pd_RDFQuery.h in Headers */,
+				812D3BA9270BD55400BBEB32 /* ut_compiler.h in Headers */,
 				81E1E12E14A971D00044BB6A /* pd_RDFSupport.h in Headers */,
 				8105D5AF1CDF7C4A00C920CB /* fv_SelectionHandles.h in Headers */,
+				812D3C0E270BD9A200BBEB32 /* fl_PartOfBlock.h in Headers */,
+				81BE906C270E43B900B3205E /* xap_CocoaAppController.h in Headers */,
 				81E1E12F14A971D00044BB6A /* pd_RDFSupportRed.h in Headers */,
 				81E1E13114A971D00044BB6A /* pl_ListenerCoupleCloser.h in Headers */,
 				81E1E14314A9722D0044BB6A /* ie_exp_HTML_DocumentWriter.h in Headers */,
 				81E1E14514A9722D0044BB6A /* ie_exp_HTML_Listener.h in Headers */,
+				815EB8992710A00F000BAD0B /* fv_View.h in Headers */,
+				81BE9087270E441B00B3205E /* ap_CocoaFrameImpl.h in Headers */,
 				8105D5A31CDE6FBD00C920CB /* xap_Dlg_FileOpenSaveAs.h in Headers */,
 				81E1E14714A9722D0044BB6A /* ie_exp_HTML_NavigationHelper.h in Headers */,
+				81236BC0270C0B640050FA22 /* gr_CocoaGraphics.h in Headers */,
+				81236C10270C898B0050FA22 /* gr_CocoaFont.h in Headers */,
 				81E1E14914A9722D0044BB6A /* ie_exp_HTML_StyleTree.h in Headers */,
+				812D3BE6270BD8BF00BBEB32 /* fp_RDFAnchorRun.h in Headers */,
 				8105D5A41CDE6FC100C920CB /* ie_exp_RTF_AttrProp.h in Headers */,
+				81236C65270CD9810050FA22 /* gr_CocoaImage.h in Headers */,
 				81E1E14B14A9722D0044BB6A /* ie_exp_HTML_util.h in Headers */,
 				81E1E14D14A9722D0044BB6A /* ie_exp_HTML_UtilListeners.h in Headers */,
+				812D3B85270BD54A00BBEB32 /* ut_option.h in Headers */,
 				81E1E14F14A9722D0044BB6A /* ie_imp_RDF.h in Headers */,
 				81E1E17514A974080044BB6A /* ap_Dialog_Border_Shading.h in Headers */,
+				812D3B9D270BD55100BBEB32 /* ut_conversion.h in Headers */,
+				814AC4D7271E67F20055F252 /* gr_CoreGraphicsUtils.h in Headers */,
 				81E1E17714A974080044BB6A /* ap_Dialog_GetStringCommon.h in Headers */,
+				812D3BE8270BD8BF00BBEB32 /* fp_FmtMarkRun.h in Headers */,
 				81E1E17914A974080044BB6A /* ap_Dialog_InsertXMLID.h in Headers */,
+				812D3BE7270BD8BF00BBEB32 /* fp_AnnotationRun.h in Headers */,
+				815EB8FC27114299000BAD0B /* xap_Drawable.h in Headers */,
+				81BE90ED270E79B400B3205E /* xap_CocoaDlg_FileOpenSaveAs.h in Headers */,
+				812D3BB6270BD58100BBEB32 /* ut_std_vector.h in Headers */,
 				81E1E17B14A974080044BB6A /* ap_Dialog_Modal.h in Headers */,
+				81BE90AE270E445D00B3205E /* xap_CocoaFrameImpl.h in Headers */,
 				81E1E17D14A974080044BB6A /* ap_Dialog_Modeless.h in Headers */,
+				812D3B91270BD54D00BBEB32 /* ut_export.h in Headers */,
+				814AC4E52730C0570055F252 /* ut_null.h in Headers */,
 				81E1E17F14A974080044BB6A /* ap_Dialog_RDFEditor.h in Headers */,
 				81E1E18114A974080044BB6A /* ap_Dialog_RDFQuery.h in Headers */,
 				81E1E19714A9745A0044BB6A /* fv_ViewDoubleBuffering.h in Headers */,
+				81BE9051270E3FFA00B3205E /* ap_CocoaDialog_PageSetup.h in Headers */,
 				81E1E1B914A9753D0044BB6A /* ODe_RDFWriter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -7312,13 +7344,59 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = Abisource;
+				TargetAttributes = {
+					810F838812014A2A002759C5 = {
+						ProvisioningStyle = Manual;
+					};
+					8115DBD510DB3546009D9DEA = {
+						ProvisioningStyle = Manual;
+					};
+					8115DC6A10DB35EC009D9DEA = {
+						ProvisioningStyle = Manual;
+					};
+					8115DC7110DB35FF009D9DEA = {
+						ProvisioningStyle = Manual;
+					};
+					8115DC7810DB360E009D9DEA = {
+						ProvisioningStyle = Manual;
+					};
+					8115DC7F10DB3620009D9DEA = {
+						ProvisioningStyle = Manual;
+					};
+					8175A17F10E7359C003DE86D = {
+						ProvisioningStyle = Manual;
+					};
+					8175A29410E97197003DE86D = {
+						ProvisioningStyle = Manual;
+					};
+					8175A2C310E9D3D5003DE86D = {
+						ProvisioningStyle = Manual;
+					};
+					818E631010F09CD800E0EF7C = {
+						ProvisioningStyle = Manual;
+					};
+					81CD2FD810E3412A00CDEDD8 = {
+						ProvisioningStyle = Manual;
+					};
+					81CD322210E347E000CDEDD8 = {
+						ProvisioningStyle = Manual;
+					};
+					81CD364D10E46FE600CDEDD8 = {
+						ProvisioningStyle = Manual;
+					};
+					8D1107260486CEB800E47090 = {
+						ProvisioningStyle = Manual;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "abixcode" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* abixcode */;
@@ -7391,7 +7469,6 @@
 				81D0083B1024CC3D00A42CFC /* ap_CocoaDialog_Options.nib in Resources */,
 				81D0083F1024CC3D00A42CFC /* ap_CocoaDialog_PageNumbers.nib in Resources */,
 				81FF923E1CE01A3C0080CD27 /* tb_semitem_prev.png in Resources */,
-				81D008421024CC3D00A42CFC /* ap_CocoaDialog_PageSetup.nib in Resources */,
 				81D008451024CC3D00A42CFC /* ap_CocoaDialog_Paragraph.nib in Resources */,
 				81D008481024CC3D00A42CFC /* ap_CocoaDialog_Replace.nib in Resources */,
 				81D0084B1024CC3D00A42CFC /* ap_CocoaDialog_Spell.nib in Resources */,
@@ -7434,6 +7511,7 @@
 				81D00BC21024CC4100A42CFC /* menu_insert_symbol.png in Resources */,
 				81D00BC41024CC4100A42CFC /* menu_insert_table.png in Resources */,
 				81D00BC61024CC4100A42CFC /* menu_jump_to.png in Resources */,
+				81BE9037270E3F2B00B3205E /* ap_CocoaDialog_PageSetup.nib in Resources */,
 				81D00BC81024CC4100A42CFC /* menu_merge_cells.png in Resources */,
 				81D00BCA1024CC4100A42CFC /* menu_new.png in Resources */,
 				81D00BCC1024CC4100A42CFC /* menu_new_window.png in Resources */,
@@ -7930,6 +8008,7 @@
 				81CD327510E3481A00CDEDD8 /* ap_Dialog_MarkRevisions.cpp in Sources */,
 				81CD327610E3481A00CDEDD8 /* ap_Dialog_MergeCells.cpp in Sources */,
 				81CD327710E3481A00CDEDD8 /* ap_Dialog_New.cpp in Sources */,
+				81236BBF270C0B640050FA22 /* gr_CocoaGraphics.cpp in Sources */,
 				81CD327810E3481A00CDEDD8 /* ap_Dialog_Options.cpp in Sources */,
 				81CD327910E3481A00CDEDD8 /* ap_Dialog_PageNumbers.cpp in Sources */,
 				81CD327A10E3481A00CDEDD8 /* ap_Dialog_PageSetup.cpp in Sources */,
@@ -7951,6 +8030,7 @@
 				81CD328A10E3481A00CDEDD8 /* ap_LB_DeadCaron.cpp in Sources */,
 				81CD328B10E3481A00CDEDD8 /* ap_LB_DeadCedilla.cpp in Sources */,
 				81CD328C10E3481A00CDEDD8 /* ap_LB_DeadCircumflex.cpp in Sources */,
+				81236C0F270C898B0050FA22 /* gr_CocoaFont.cpp in Sources */,
 				81CD328D10E3481A00CDEDD8 /* ap_LB_DeadDiaeresis.cpp in Sources */,
 				81CD328E10E3481A00CDEDD8 /* ap_LB_DeadDoubleacute.cpp in Sources */,
 				81CD328F10E3481A00CDEDD8 /* ap_LB_DeadGrave.cpp in Sources */,
@@ -8035,7 +8115,6 @@
 				81CD32E010E3481A00CDEDD8 /* fp_Column.cpp in Sources */,
 				81CD32E110E3481A00CDEDD8 /* fp_ContainerObject.cpp in Sources */,
 				81CD32E210E3481A00CDEDD8 /* fp_DirectionMarkerRun.cpp in Sources */,
-				8105D5AB1CDF7BE900C920CB /* ut_strptime.c in Sources */,
 				81CD32E310E3481A00CDEDD8 /* fp_EmbedRun.cpp in Sources */,
 				81CD32E410E3481A00CDEDD8 /* fp_FieldListLabelRun.cpp in Sources */,
 				81CD32E510E3481A00CDEDD8 /* fp_FieldTableSumRun.cpp in Sources */,
@@ -8061,12 +8140,9 @@
 				81CD32F910E3481A00CDEDD8 /* fv_View_protected.cpp in Sources */,
 				81CD32FA10E3481A00CDEDD8 /* fv_View_TestRoutines.cpp in Sources */,
 				81CD32FB10E3481A00CDEDD8 /* fv_VisualDragText.cpp in Sources */,
-				81CD32FC10E3481A00CDEDD8 /* gr_CairoGraphics.cpp in Sources */,
-				81CD32FD10E3481A00CDEDD8 /* gr_CairoNullGraphics.cpp in Sources */,
 				81CD32FE10E3481A00CDEDD8 /* gr_Caret.cpp in Sources */,
 				81CD32FF10E3481A00CDEDD8 /* gr_CharWidths.cpp in Sources */,
 				81CD330010E3481A00CDEDD8 /* gr_CharWidthsCache.cpp in Sources */,
-				81CD330110E3481A00CDEDD8 /* gr_CocoaCairoGraphics.cpp in Sources */,
 				81CD330210E3481A00CDEDD8 /* gr_CocoaImage.cpp in Sources */,
 				81CD330310E3481A00CDEDD8 /* gr_DrawArgs.cpp in Sources */,
 				81CD330410E3481A00CDEDD8 /* gr_EmbedManager.cpp in Sources */,
@@ -8139,6 +8215,7 @@
 				81CD334710E3481A00CDEDD8 /* pt_PT_Glob.cpp in Sources */,
 				81CD334810E3481A00CDEDD8 /* pt_PT_InsertObject.cpp in Sources */,
 				81CD334910E3481A00CDEDD8 /* pt_PT_InsertSpan.cpp in Sources */,
+				812D3C0F270BD9A200BBEB32 /* fl_PartOfBlock.cpp in Sources */,
 				81CD334A10E3481A00CDEDD8 /* pt_PT_InsertStrux.cpp in Sources */,
 				81CD334B10E3481A00CDEDD8 /* pt_PT_Listener.cpp in Sources */,
 				81CD334C10E3481A00CDEDD8 /* pt_PT_Styles.cpp in Sources */,
@@ -8209,7 +8286,6 @@
 				81CD338F10E3481A00CDEDD8 /* ut_unixMisc.cpp in Sources */,
 				81CD339010E3481A00CDEDD8 /* ut_unixTimer.cpp in Sources */,
 				81CD339110E3481A00CDEDD8 /* ut_uuid.cpp in Sources */,
-				81CD339210E3481A00CDEDD8 /* ut_vector.cpp in Sources */,
 				81CD339310E3481A00CDEDD8 /* ut_wctomb.cpp in Sources */,
 				81CD339410E3481A00CDEDD8 /* ut_worker.cpp in Sources */,
 				81CD339510E3481A00CDEDD8 /* ut_xml.cpp in Sources */,
@@ -8394,11 +8470,6 @@
 			target = 81CD2FD810E3412A00CDEDD8 /* WMF */;
 			targetProxy = 810F83AA12014A8F002759C5 /* PBXContainerItemProxy */;
 		};
-		810F83AD12014A8F002759C5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 81CD364D10E46FE600CDEDD8 /* Grammar */;
-			targetProxy = 810F83AC12014A8F002759C5 /* PBXContainerItemProxy */;
-		};
 		810F83AF12014A8F002759C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8175A17F10E7359C003DE86D /* SDW */;
@@ -8408,6 +8479,11 @@
 			isa = PBXTargetDependency;
 			target = 8175A29410E97197003DE86D /* ClarisWorks */;
 			targetProxy = 810F83B012014A8F002759C5 /* PBXContainerItemProxy */;
+		};
+		814AC51A273430DD0055F252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81CD364D10E46FE600CDEDD8 /* Grammar */;
+			targetProxy = 814AC519273430DD0055F252 /* PBXContainerItemProxy */;
 		};
 		81CD342910E34A6E00CDEDD8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -8428,7 +8504,6 @@
 		810F838A12014A2A002759C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PRODUCT_NAME = "AbiWord and Plugins";
 				ZERO_LINK = NO;
 			};
@@ -8811,7 +8886,6 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
 					/usr/include/libxml2,
 					/usr/local/include/,
@@ -8821,9 +8895,10 @@
 					/usr/local/include/cairo/,
 					"/usr/local/include/libgsf-1/",
 					"/usr/local/include/pango-1.0/",
-					/usr/local/include/enchant/,
+					"/usr/local/include/enchant-2/",
 					/usr/local/include/wv/,
-					/usr/local/include/freetype2,
+					/usr/local/include/harfbuzz,
+					/usr/local/include/freetype2/,
 				);
 				INSTALL_PATH = /usr/local/lib;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
@@ -8848,9 +8923,10 @@
 					/usr/local/include/cairo/,
 					"/usr/local/include/libgsf-1/",
 					"/usr/local/include/pango-1.0/",
-					/usr/local/include/enchant/,
+					"/usr/local/include/enchant-2/",
 					/usr/local/include/wv/,
-					/usr/local/include/freetype2,
+					/usr/local/include/harfbuzz,
+					/usr/local/include/freetype2/,
 				);
 				INSTALL_PATH = /usr/local/lib;
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../PlugIns/$(EXECUTABLE_PATH)";
@@ -8866,7 +8942,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "$(SRCROOT)/../abiword/src/wp/main/cocoa/bundle/Info.plist";
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/enchant/2.3.1/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = libabiword;
 			};
 			name = Debug;
@@ -8876,9 +8958,13 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/../abiword/src/wp/main/cocoa/bundle/Info.plist";
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
-				PREBINDING = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/enchant/2.3.1/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = libabiword;
 				ZERO_LINK = NO;
 			};
@@ -8920,12 +9006,13 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = AbiWord.entitlements;
 				COPY_PHASE_STRIP = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ../abiword/src/wp/main/cocoa/bundle/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PREBINDING = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abisource.AbiWord;
 				PRODUCT_NAME = AbiWord;
 				WRAPPER_EXTENSION = app;
 			};
@@ -8934,11 +9021,12 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				CODE_SIGN_ENTITLEMENTS = AbiWord.entitlements;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ../abiword/src/wp/main/cocoa/bundle/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abisource.AbiWord;
 				PRODUCT_NAME = AbiWord;
 				WRAPPER_EXTENSION = app;
 			};
@@ -8947,11 +9035,39 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Manual;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
 				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
 				GCC_WARN_MISSING_PARENTHESES = YES;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
@@ -8975,13 +9091,15 @@
 					/usr/local/include/cairo/,
 					"/usr/local/include/libgsf-1/",
 					"/usr/local/include/pango-1.0/",
-					/usr/local/include/enchant/,
+					"/usr/local/include/enchant-2/",
 					/usr/local/include/wv/,
+					/usr/local/include/harfbuzz,
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/lib/,
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-DHAVE_CONFIG_H",
 					"-DABI_BUILD_VERSION=PACKAGE_VERSION",
@@ -8989,9 +9107,9 @@
 					"$(OTHER_DEBUG_FLAGS)",
 				);
 				OTHER_CFLAGS_QUOTED_1 = "-DABIWORD_DATADIR=\"\\\"/Applications/AbiWord.app/Content\\\"\"";
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_DEBUG_FLAGS = "-DDEBUG=1";
-				PREBINDING = NO;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Debug;
@@ -8999,11 +9117,40 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Manual;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
 				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
 				GCC_WARN_MISSING_PARENTHESES = YES;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
@@ -9027,13 +9174,15 @@
 					/usr/local/include/cairo/,
 					"/usr/local/include/libgsf-1/",
 					"/usr/local/include/pango-1.0/",
-					/usr/local/include/enchant/,
+					"/usr/local/include/enchant-2/",
 					/usr/local/include/wv/,
+					/usr/local/include/harfbuzz,
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/lib/,
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-DHAVE_CONFIG_H",
 					"-DABI_BUILD_VERSION=PACKAGE_VERSION",
@@ -9041,9 +9190,9 @@
 					"$(OTHER_DEBUG_FLAGS)",
 				);
 				OTHER_CFLAGS_QUOTED_1 = "-DABIWORD_DATADIR=\"\\\"/Applications/AbiWord.app/Content\\\"\"";
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_DEBUG_FLAGS = "-DNDEBUG=1";
-				PREBINDING = NO;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;

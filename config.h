@@ -107,7 +107,8 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to disable debugging functionality */
-#define NDEBUG 1
+// This is handled in the scheme.
+//#define NDEBUG 1
 
 /* Name of package */
 #define PACKAGE "abiword"
@@ -145,6 +146,8 @@
 /* Build cocoa user interface */
 #define TOOLKIT_COCOA 1
 
+#define XAP_DONTUSE_XOR 1
+
 /* Build gtk+ user interface */
 /* #undef TOOLKIT_GTK */
 
@@ -167,7 +170,7 @@
 #define VERSION "3.0.99"
 
 /* Using Cairo */
-#define WITH_CAIRO 1
+/* #define WITH_CAIRO 1 */
 
 /* Using champlain */
 /* #undef WITH_CHAMPLAIN */
